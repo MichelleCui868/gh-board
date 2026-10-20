@@ -29,6 +29,16 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: python scripts/fetch.py
 
+      - name: Enrich
+        # 没配置 ANTHROPIC_API_KEY 时脚本会直接跳过，不影响抓取
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ENRICH_MODEL: ${{ vars.ENRICH_MODEL || 'claude-haiku-5-5' }}
+        run: |
+          pip install --quiet anthropic
+          python scripts/enrich.py
+
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"

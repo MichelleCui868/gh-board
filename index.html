@@ -4,24 +4,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GitHub 开源看板</title>
-<meta name="description" content="追踪 GitHub 开源项目的 star 增量：今日、本周、本月飙升与新秀项目。">
+<meta name="description" content="追踪 GitHub 开源项目的 star 增量，按场景类目和年轻人痛点筛选，附中文介绍与能力卡片。">
 <style>
 :root {
   --bg: #f6f7f9; --panel: #fff; --text: #16181d; --muted: #646b78; --faint: #9aa1ad;
   --line: #e4e7ec; --chip: #f0f2f5; --accent: #2f6fed; --accent-soft: #e8efff;
-  --up: #1a8f4c; --up-soft: #e6f6ec; --star: #e3a008; --shadow: 0 1px 2px rgba(16,24,40,.04);
+  --up: #1a8f4c; --up-soft: #e6f6ec; --warm: #b45309; --warm-soft: #fdf1e3;
+  --warn: #b42318; --warn-soft: #fdecea; --star: #e3a008; --shadow: 0 1px 2px rgba(16,24,40,.04);
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0f1115; --panel: #171a21; --text: #e7e9ee; --muted: #9aa1ad; --faint: #6b7280;
     --line: #262b35; --chip: #20242d; --accent: #6b9bff; --accent-soft: #1c2740;
-    --up: #4cc38a; --up-soft: #15291f; --star: #f0b429; --shadow: none;
+    --up: #4cc38a; --up-soft: #15291f; --warm: #f0a35e; --warm-soft: #2e2116;
+    --warn: #f97066; --warn-soft: #2d1716; --star: #f0b429; --shadow: none;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0f1115; --panel: #171a21; --text: #e7e9ee; --muted: #9aa1ad; --faint: #6b7280;
   --line: #262b35; --chip: #20242d; --accent: #6b9bff; --accent-soft: #1c2740;
-  --up: #4cc38a; --up-soft: #15291f; --star: #f0b429; --shadow: none;
+  --up: #4cc38a; --up-soft: #15291f; --warm: #f0a35e; --warm-soft: #2e2116;
+  --warn: #f97066; --warn-soft: #2d1716; --star: #f0b429; --shadow: none;
 }
 * { box-sizing: border-box; }
 body {
@@ -29,27 +32,37 @@ body {
   font: 14px/1.55 -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", sans-serif;
 }
 a { color: inherit; text-decoration: none; }
-.wrap { max-width: 980px; margin: 0 auto; padding: 32px 16px 64px; }
+button { font: inherit; }
+.wrap { max-width: 1000px; margin: 0 auto; padding: 32px 16px 64px; }
 header .kicker { font-size: 12px; letter-spacing: .12em; color: var(--accent); font-weight: 600; }
 header h1 { margin: 6px 0 4px; font-size: 28px; }
 header p { margin: 0; color: var(--muted); }
 .status { margin-top: 10px; font-size: 12px; color: var(--faint); }
 
-.tabs { display: flex; gap: 4px; margin: 24px 0 14px; padding: 4px; background: var(--chip); border-radius: 10px; overflow-x: auto; }
+.tabs { display: flex; gap: 4px; margin: 24px 0 12px; padding: 4px; background: var(--chip); border-radius: 10px; overflow-x: auto; }
 .tabs button {
   flex: 1 0 auto; border: 0; background: none; color: var(--muted); padding: 8px 14px;
-  border-radius: 7px; font: inherit; font-weight: 500; cursor: pointer; white-space: nowrap;
+  border-radius: 7px; font-weight: 500; cursor: pointer; white-space: nowrap;
 }
 .tabs button.on { background: var(--panel); color: var(--text); box-shadow: var(--shadow); }
 .tabs .count { color: var(--faint); font-size: 12px; margin-left: 4px; }
 
-.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
-.filters input, .filters select {
+.cats { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; margin-bottom: 10px; scrollbar-width: thin; }
+.cats button {
+  flex: 0 0 auto; border: 1px solid var(--line); background: var(--panel); color: var(--muted);
+  padding: 4px 12px; border-radius: 16px; cursor: pointer; white-space: nowrap; font-size: 13px;
+}
+.cats button.on { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); font-weight: 500; }
+.cats .n { color: var(--faint); font-size: 11px; margin-left: 3px; }
+.cats button.on .n { color: inherit; opacity: .7; }
+
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; align-items: center; }
+.filters input[type=search], .filters select {
   height: 34px; padding: 0 10px; border: 1px solid var(--line); border-radius: 8px;
   background: var(--panel); color: var(--text); font: inherit;
 }
-.filters input { flex: 1 1 220px; min-width: 0; }
-.filters select { flex: 0 0 auto; }
+.filters input[type=search] { flex: 1 1 220px; min-width: 0; }
+.filters label { display: inline-flex; align-items: center; gap: 5px; font-size: 13px; color: var(--muted); cursor: pointer; white-space: nowrap; }
 
 .list { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); }
 .item { display: grid; grid-template-columns: 28px 36px 1fr auto; gap: 12px; padding: 14px 16px; border-top: 1px solid var(--line); }
@@ -57,28 +70,52 @@ header p { margin: 0; color: var(--muted); }
 .rank { color: var(--faint); font-variant-numeric: tabular-nums; text-align: right; padding-top: 8px; font-size: 13px; }
 .avatar { width: 36px; height: 36px; border-radius: 8px; background: var(--chip); }
 .main { min-width: 0; }
-.title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.title { display: flex; align-items: center; gap: 6px 8px; flex-wrap: wrap; }
 .title a.name { font-weight: 600; font-size: 15px; word-break: break-all; }
 .title a.name:hover { color: var(--accent); }
 .title .owner { color: var(--muted); font-weight: 400; }
-.badge { font-size: 11px; padding: 1px 6px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); }
+.badge { font-size: 11px; padding: 1px 6px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; }
 .desc { color: var(--muted); margin: 3px 0 6px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.desc.zh { color: var(--text); }
 .meta { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--muted); align-items: center; }
 .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; }
-.topics { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
-.topics span { font-size: 11px; padding: 1px 7px; border-radius: 10px; background: var(--chip); color: var(--muted); }
+.tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+.tag { font-size: 11px; padding: 1px 7px; border-radius: 10px; background: var(--chip); color: var(--muted); white-space: nowrap; }
+.tag.cat { background: var(--accent-soft); color: var(--accent); }
+.tag.pain { background: var(--warm-soft); color: var(--warm); }
+.tag.good { background: var(--up-soft); color: var(--up); }
+.tag.warn { background: var(--warn-soft); color: var(--warn); }
+.more-btn { border: 0; background: none; color: var(--accent); cursor: pointer; padding: 0; font-size: 12px; margin-top: 6px; }
+
+.detail { margin-top: 10px; padding: 12px; background: var(--bg); border-radius: 8px; font-size: 13px; }
+.detail .hook { font-weight: 600; margin-bottom: 8px; }
+.detail dl { display: grid; grid-template-columns: 84px 1fr; gap: 6px 10px; margin: 0; }
+.detail dt { color: var(--faint); }
+.detail dd { margin: 0; }
+.detail ul { margin: 0; padding-left: 18px; }
+.detail .flow { display: inline-flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.detail .actions { margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap; }
+.detail .actions button, .detail .actions a {
+  border: 1px solid var(--line); background: var(--panel); color: var(--text);
+  padding: 4px 12px; border-radius: 6px; cursor: pointer; font-size: 12px;
+}
+
 .side { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; min-width: 120px; }
 .delta { font-size: 18px; font-weight: 700; color: var(--up); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .delta.none { color: var(--faint); font-weight: 500; font-size: 14px; }
 .delta small { font-size: 11px; font-weight: 500; color: var(--muted); margin-left: 2px; }
 .rate { font-size: 11px; color: var(--up); background: var(--up-soft); padding: 0 6px; border-radius: 4px; }
+.score { font-size: 11px; color: var(--muted); white-space: nowrap; }
+.score b { color: var(--text); }
 svg.spark { display: block; }
 .watch { border: 0; background: none; cursor: pointer; font-size: 16px; color: var(--faint); padding: 0 2px; line-height: 1; }
 .watch.on { color: var(--star); }
 
 .empty { padding: 48px 16px; text-align: center; color: var(--muted); }
-.more { display: block; margin: 16px auto 0; padding: 8px 20px; border: 1px solid var(--line); background: var(--panel); color: var(--text); border-radius: 8px; font: inherit; cursor: pointer; }
-footer { margin-top: 28px; font-size: 12px; color: var(--faint); text-align: center; }
+.more { display: block; margin: 16px auto 0; padding: 8px 20px; border: 1px solid var(--line); background: var(--panel); color: var(--text); border-radius: 8px; cursor: pointer; }
+footer { margin-top: 28px; font-size: 12px; color: var(--faint); text-align: center; line-height: 1.8; }
+.toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--text); color: var(--bg); padding: 8px 16px; border-radius: 8px; font-size: 13px; opacity: 0; transition: opacity .2s; pointer-events: none; }
+.toast.show { opacity: 1; }
 
 @media (max-width: 640px) {
   .wrap { padding-top: 20px; }
@@ -86,7 +123,7 @@ footer { margin-top: 28px; font-size: 12px; color: var(--faint); text-align: cen
   .item { grid-template-columns: 32px 1fr; gap: 4px 10px; padding: 12px; }
   .rank { display: none; }
   .avatar { width: 32px; height: 32px; }
-  .side { grid-column: 2; flex-direction: row; align-items: center; justify-content: flex-start; gap: 10px; min-width: 0; }
+  .side { grid-column: 2; flex-direction: row; align-items: center; justify-content: flex-start; flex-wrap: wrap; gap: 6px 10px; min-width: 0; }
   .side .watch { order: 9; margin-left: auto; }
   .delta { font-size: 16px; }
   svg.spark { width: 80px; }
@@ -98,14 +135,16 @@ footer { margin-top: 28px; font-size: 12px; color: var(--faint); text-align: cen
   <header>
     <div class="kicker">GITHUB / 开源看板</div>
     <h1>开源项目飙升榜</h1>
-    <p>按 star 增量排序，看看这段时间哪些项目在涨。</p>
+    <p>按 star 增量排序，按场景和痛点筛选，看看这段时间哪些项目在涨。</p>
     <div class="status" id="status">正在加载数据…</div>
   </header>
 
   <nav class="tabs" id="tabs"></nav>
+  <div class="cats" id="cats"></div>
 
   <div class="filters">
-    <input id="q" type="search" placeholder="搜索仓库名、描述或 topic">
+    <input id="q" type="search" placeholder="搜索仓库名、中英文介绍或 topic">
+    <select id="pain"><option value="">全部痛点</option></select>
     <select id="lang"><option value="">全部语言</option></select>
     <select id="min">
       <option value="0">不限 star</option>
@@ -116,15 +155,22 @@ footer { margin-top: 28px; font-size: 12px; color: var(--faint); text-align: cen
     <select id="sort">
       <option value="delta">按增量</option>
       <option value="rate">按增长率</option>
+      <option value="chain">按可串联指数</option>
       <option value="stars">按总 star</option>
     </select>
+    <label><input type="checkbox" id="friendly"> 普通人能用</label>
+    <label><input type="checkbox" id="commercial"> 可商用</label>
   </div>
 
   <div class="list" id="list"></div>
   <button class="more" id="more" hidden>加载更多</button>
 
-  <footer>数据来自 GitHub Trending、Search 与 GraphQL API，由 GitHub Actions 每 6 小时更新。带 ~ 的数字来自 Trending 估算，历史快照满 30 天后全部改用实测值。</footer>
+  <footer>
+    数据来自 GitHub Trending、Search 与 GraphQL API，GitHub Actions 每 6 小时更新；中文介绍和能力卡片由 Claude 读 README 生成，可能有误，以原仓库为准。<br>
+    带 ~ 的增量来自 Trending 估算。可串联指数综合了调用方式、输出格式、能否批量运行、许可证、维护情况和上手难度。
+  </footer>
 </div>
+<div class="toast" id="toast"></div>
 
 <script>
 const TABS = [
@@ -132,19 +178,28 @@ const TABS = [
   { id: "d7", label: "本周", key: "d7", unit: "本周" },
   { id: "d30", label: "本月", key: "d30", unit: "本月" },
   { id: "new", label: "新秀", key: "d7", unit: "本周", filter: r => r.is_new },
-  { id: "watch", label: "我的关注", key: "d7", unit: "本周", filter: r => watch.has(r.name) },
+  { id: "topics", label: "本周选题", key: "d7", unit: "本周", all: true,
+    filter: r => r.card && r.card.pain_points.length && r.card.newbie_friendly !== "不友好" },
+  { id: "all", label: "全部项目", key: "d7", unit: "本周", all: true },
+  { id: "watch", label: "我的关注", key: "d7", unit: "本周", all: true, filter: r => watch.has(r.name) },
 ];
 const PAGE = 50;
+const COMMERCIAL = /^(MIT|Apache-2\.0|BSD-\d-Clause|ISC|Unlicense|MPL-2\.0|0BSD|Zlib|CC0-1\.0)$/;
+const COPYLEFT = /GPL/;
+const CALLABLE = ["CLI", "Python 库", "Node 库", "HTTP API", "MCP Server", "Claude Skill"];
 const $ = id => document.getElementById(id);
 const store = {
   get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
 };
 const watch = new Set(store.get("gh-board-watch", []));
-let data = { repos: [] }, tab = TABS.find(t => t.id === location.hash.slice(1)) || TABS[0], shown = PAGE;
+const open = new Set();
+let data = { repos: [] }, tax = { categories: [], pain_points: [] }, catName = {}, painName = {};
+let tab = TABS.find(t => t.id === location.hash.slice(1)) || TABS[0], cat = "", shown = PAGE;
 
 const fmt = n => n >= 1e5 ? Math.round(n / 1e3) + "k" : n >= 1e3 ? (n / 1e3).toFixed(1).replace(/\.0$/, "") + "k" : String(n);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const daysSince = iso => iso ? (Date.now() - new Date(iso)) / 864e5 : Infinity;
 function ago(iso) {
   if (!iso) return "";
   const h = (Date.now() - new Date(iso)) / 36e5;
@@ -168,30 +223,120 @@ function spark(values) {
   return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true"><path d="${d}" fill="none" stroke="var(--up)" stroke-width="1.6" stroke-linejoin="round"/></svg>`;
 }
 
-function filtered() {
-  const q = $("q").value.trim().toLowerCase(), lang = $("lang").value, min = +$("min").value, sort = $("sort").value;
-  const key = tab.key;
-  let rows = data.repos.filter(r =>
-    (!tab.filter || tab.filter(r)) &&
-    (!lang || r.language === lang) &&
-    r.stars >= min &&
-    (!q || (r.name + " " + (r.description || "") + " " + (r.topics || []).join(" ")).toLowerCase().includes(q)));
-  if (tab.id !== "watch") rows = rows.filter(r => r[key] != null && r[key] > 0);
-  const score = sort === "stars" ? r => r.stars : sort === "rate" ? r => rate(r, key) ?? -1 : r => r[key] ?? -1;
+// ---------- 派生指标 ----------
+function licenseKind(spdx) {
+  if (!spdx || spdx === "NOASSERTION") return "unknown";
+  if (COMMERCIAL.test(spdx)) return "ok";
+  if (COPYLEFT.test(spdx)) return "copyleft";
+  return "unknown";
+}
+// 可串联指数 0–100：调用方式 30 + 标准输出 15 + 批量 15 + 许可证 15 + 维护 15 + 上手难度 10
+function chainScore(r) {
+  const c = r.card;
+  if (!c) return null;
+  const callable = c.interfaces.filter(i => CALLABLE.includes(i));
+  let s = callable.length === 0 ? 5 : callable.length === 1 ? 20 : 25;
+  if (c.interfaces.includes("HTTP API") || c.interfaces.includes("MCP Server")) s = 30;
+  if (c.outputs.some(o => !["无", "发布动作", "报告"].includes(o))) s += 15;
+  if (c.batch_ok) s += 15;
+  s += { ok: 15, copyleft: 5, unknown: 0 }[licenseKind(r.license)];
+  const age = daysSince(r.pushed_at);
+  s += age <= 90 ? 15 : age <= 180 ? 8 : 0;
+  s += { 1: 10, 2: 6, 3: 2 }[c.difficulty] || 0;
+  return s;
+}
+function wrappable(r) {
+  const c = r.card;
+  return !!c && c.batch_ok && c.interfaces.some(i => ["CLI", "Python 库", "Node 库", "HTTP API"].includes(i))
+    && !c.requires.includes("机器人硬件");
+}
+
+// ---------- 筛选与渲染 ----------
+function base() {
+  const q = $("q").value.trim().toLowerCase(), lang = $("lang").value, min = +$("min").value;
+  const pain = $("pain").value, friendly = $("friendly").checked, commercial = $("commercial").checked;
+  return data.repos.filter(r => {
+    const c = r.card;
+    if (tab.filter && !tab.filter(r)) return false;
+    if (lang && r.language !== lang) return false;
+    if (r.stars < min) return false;
+    if (pain && !(c && c.pain_points.includes(pain))) return false;
+    if (friendly && !(c && c.newbie_friendly === "友好")) return false;
+    if (commercial && licenseKind(r.license) !== "ok") return false;
+    if (q) {
+      const hay = [r.name, r.description, (r.topics || []).join(" "), c && c.summary_zh, c && c.features_zh.join(" ")].join(" ").toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    if (!tab.all && !(r[tab.key] > 0)) return false;
+    return true;
+  });
+}
+function filtered(rows) {
+  if (cat) rows = rows.filter(r => r.card && r.card.categories.some(c => c.id === cat));
+  const key = tab.key, sort = $("sort").value;
+  const score = sort === "stars" ? r => r.stars
+    : sort === "rate" ? r => rate(r, key) ?? -1
+    : sort === "chain" ? r => r.chain ?? -1
+    : r => r[key] ?? -1;
   return rows.sort((a, b) => score(b) - score(a) || b.stars - a.stars);
+}
+
+function renderCats(rows) {
+  const counts = {};
+  rows.forEach(r => r.card && r.card.categories.forEach(c => counts[c.id] = (counts[c.id] || 0) + 1));
+  $("cats").innerHTML = `<button data-cat="" class="${cat ? "" : "on"}">全部</button>` +
+    tax.categories.map(c => `<button data-cat="${c.id}" class="${cat === c.id ? "on" : ""}">${esc(c.name)}<span class="n">${counts[c.id] || 0}</span></button>`).join("");
+}
+
+function detail(r) {
+  const c = r.card;
+  if (!c) return `<div class="detail">这个项目还没有生成中文介绍。${r.description ? `<br>原文：${esc(r.description)}` : ""}</div>`;
+  const list = a => a && a.length ? a.map(esc).join("、") : "—";
+  const lic = r.license ? `${esc(r.license)}（${{ ok: "可商用", copyleft: "传染性许可证，集成到闭源/商用产品前要看条款", unknown: "不明" }[licenseKind(r.license)]}）` : "未声明（不明）";
+  return `<div class="detail">
+    ${c.hook_zh ? `<div class="hook">“${esc(c.hook_zh)}”</div>` : ""}
+    <dl>
+      <dt>能做什么</dt><dd><ul>${c.features_zh.map(f => `<li>${esc(f)}</li>`).join("")}</ul></dd>
+      <dt>使用场景</dt><dd><ul>${c.use_cases_zh.map(f => `<li>${esc(f)}</li>`).join("")}</ul></dd>
+      <dt>输入 → 输出</dt><dd class="flow">${c.inputs.map(i => `<span class="tag">${esc(i)}</span>`).join("")} → ${c.outputs.map(i => `<span class="tag">${esc(i)}</span>`).join("")}</dd>
+      <dt>调用方式</dt><dd>${list(c.interfaces)}${c.batch_ok ? "；能批量运行" : ""}</dd>
+      <dt>部署</dt><dd>${list(c.deploy)}；平台：${list(c.platforms)}</dd>
+      <dt>运行条件</dt><dd>${list(c.requires)}；${esc(c.cost)}</dd>
+      <dt>上手难度</dt><dd>${["", "装完就能用", "需要配置", "需要开发能力"][c.difficulty]}（普通人：${esc(c.newbie_friendly)}）</dd>
+      <dt>许可证</dt><dd>${lic}</dd>
+      ${c.risk_note ? `<dt>风险</dt><dd>${esc(c.risk_note)}</dd>` : ""}
+      ${r.description ? `<dt>原文简介</dt><dd>${esc(r.description)}</dd>` : ""}
+    </dl>
+    <div class="actions">
+      <button data-copy="${esc(r.name)}">复制选题素材</button>
+      ${c.demo_url ? `<a href="${esc(c.demo_url)}" target="_blank" rel="noopener">在线体验</a>` : ""}
+      <a href="https://github.com/${esc(r.name)}#readme" target="_blank" rel="noopener">看 README</a>
+    </div>
+  </div>`;
 }
 
 function render() {
   document.querySelectorAll("#tabs button").forEach(b => b.classList.toggle("on", b.dataset.id === tab.id));
-  const rows = filtered(), key = tab.key;
+  const pre = base();
+  renderCats(pre);
+  const rows = filtered(pre), key = tab.key;
   if (!rows.length) {
-    $("list").innerHTML = `<div class="empty">${tab.id === "watch" ? "还没有关注的仓库，点列表右侧的 ☆ 就能加进来。" : "没有符合条件的仓库。"}</div>`;
+    $("list").innerHTML = `<div class="empty">${tab.id === "watch" && !watch.size ? "还没有关注的仓库，点列表右侧的 ☆ 就能加进来。" : "没有符合条件的仓库。"}</div>`;
     $("more").hidden = true;
     return;
   }
   $("list").innerHTML = rows.slice(0, shown).map((r, i) => {
     const [owner, repo] = r.name.split("/");
-    const d = r[key], rt = rate(r, key);
+    const c = r.card, d = r[key], rt = rate(r, key), lk = licenseKind(r.license);
+    const tags = [];
+    if (c) {
+      c.categories.forEach(x => tags.push(`<span class="tag cat">${esc(catName[x.id] || x.id)}${x.sub ? " · " + esc(x.sub) : ""}</span>`));
+      c.pain_points.forEach(p => tags.push(`<span class="tag pain">${esc(painName[p] || p)}</span>`));
+      if (c.newbie_friendly === "友好") tags.push('<span class="tag good">普通人能用</span>');
+      if (r.wrappable) tags.push('<span class="tag good">适合包成 Skill</span>');
+    }
+    if (lk === "copyleft") tags.push(`<span class="tag warn">${esc(r.license)}</span>`);
+    if (c && c.risk_note) tags.push('<span class="tag warn">有风险提示</span>');
     return `<div class="item">
       <div class="rank">${i + 1}</div>
       <img class="avatar" loading="lazy" alt="" src="https://github.com/${esc(owner)}.png?size=72">
@@ -202,7 +347,7 @@ function render() {
           ${r.trending_rank ? `<span class="badge">Trending #${r.trending_rank}</span>` : ""}
           ${r.archived ? '<span class="badge">已归档</span>' : ""}
         </div>
-        ${r.description ? `<div class="desc">${esc(r.description)}</div>` : ""}
+        ${c ? `<div class="desc zh" title="${esc(r.description)}">${esc(c.summary_zh)}</div>` : r.description ? `<div class="desc">${esc(r.description)}</div>` : ""}
         <div class="meta">
           ${r.language ? `<span><i class="dot" style="background:${esc(r.lang_color || "var(--faint)")}"></i>${esc(r.language)}</span>` : ""}
           <span>★ ${fmt(r.stars)}</span>
@@ -210,12 +355,15 @@ function render() {
           ${r.pushed_at ? `<span>更新于 ${ago(r.pushed_at)}</span>` : ""}
           ${r.created_at ? `<span>创建于 ${r.created_at.slice(0, 10)}</span>` : ""}
         </div>
-        ${r.topics && r.topics.length ? `<div class="topics">${r.topics.map(t => `<span>${esc(t)}</span>`).join("")}</div>` : ""}
+        ${tags.length ? `<div class="tags">${tags.join("")}</div>` : ""}
+        <button class="more-btn" data-open="${esc(r.name)}">${open.has(r.name) ? "收起" : "详情"}</button>
+        ${open.has(r.name) ? detail(r) : ""}
       </div>
       <div class="side">
         <button class="watch ${watch.has(r.name) ? "on" : ""}" data-name="${esc(r.name)}" title="关注">${watch.has(r.name) ? "★" : "☆"}</button>
         ${d != null ? `<div class="delta">${r[key + "_est"] ? "~" : ""}+${fmt(d)}<small>${tab.unit}</small></div>` : '<div class="delta none">暂无增量</div>'}
         ${rt != null && rt >= 0.01 ? `<span class="rate">+${(rt * 100).toFixed(rt < 0.1 ? 1 : 0)}%</span>` : ""}
+        ${r.chain != null ? `<span class="score">可串联 <b>${r.chain}</b></span>` : ""}
         ${spark(r.spark || [])}
       </div>
     </div>`;
@@ -224,11 +372,32 @@ function render() {
   $("more").textContent = `加载更多（还有 ${rows.length - shown} 个）`;
 }
 
-function counts() {
-  $("tabs").innerHTML = TABS.map(t => {
-    const n = t.id === "watch" ? watch.size : null;
-    return `<button data-id="${t.id}">${t.label}${n != null ? `<span class="count">${n}</span>` : ""}</button>`;
-  }).join("");
+function renderTabs() {
+  $("tabs").innerHTML = TABS.map(t =>
+    `<button data-id="${t.id}">${t.label}${t.id === "watch" ? `<span class="count">${watch.size}</span>` : ""}</button>`).join("");
+}
+
+function toast(msg) {
+  $("toast").textContent = msg;
+  $("toast").classList.add("show");
+  clearTimeout(toast.t);
+  toast.t = setTimeout(() => $("toast").classList.remove("show"), 1600);
+}
+
+function topicMaterial(r) {
+  const c = r.card;
+  return [
+    `项目：${r.name}（★ ${r.stars}，本周 +${r.d7 ?? "?"}）`,
+    `链接：https://github.com/${r.name}`,
+    c.hook_zh && `卖点：${c.hook_zh}`,
+    `简介：${c.summary_zh}`,
+    `解决的痛点：${c.pain_points.map(p => painName[p]).join("、") || "—"}`,
+    `能做什么：\n${c.features_zh.map(f => "- " + f).join("\n")}`,
+    `使用场景：\n${c.use_cases_zh.map(f => "- " + f).join("\n")}`,
+    `上手：${["", "装完就能用", "需要配置", "需要开发能力"][c.difficulty]}；${c.cost}${c.demo_url ? "；在线体验 " + c.demo_url : ""}`,
+    "",
+    "请根据以上素材，写一条 500 字以内的中文 Threads 帖子：用年轻人的痛点开头，介绍这个工具怎么解决，给出上手步骤，结尾附链接。语气真诚，不要夸大。",
+  ].filter(x => x !== false && x !== undefined && x !== "").join("\n");
 }
 
 $("tabs").addEventListener("click", e => {
@@ -238,34 +407,68 @@ $("tabs").addEventListener("click", e => {
   history.replaceState(null, "", "#" + tab.id);
   shown = PAGE; render();
 });
-$("list").addEventListener("click", e => {
-  const b = e.target.closest(".watch");
+$("cats").addEventListener("click", e => {
+  const b = e.target.closest("button");
   if (!b) return;
-  const n = b.dataset.name;
-  watch.has(n) ? watch.delete(n) : watch.add(n);
-  store.set("gh-board-watch", [...watch]);
-  counts(); render();
+  cat = b.dataset.cat; shown = PAGE; render();
 });
-["q", "lang", "min", "sort"].forEach(id => $(id).addEventListener("input", () => { shown = PAGE; render(); }));
+$("list").addEventListener("click", e => {
+  const w = e.target.closest(".watch");
+  if (w) {
+    const n = w.dataset.name;
+    watch.has(n) ? watch.delete(n) : watch.add(n);
+    store.set("gh-board-watch", [...watch]);
+    renderTabs(); render();
+    return;
+  }
+  const o = e.target.closest("[data-open]");
+  if (o) {
+    const n = o.dataset.open;
+    open.has(n) ? open.delete(n) : open.add(n);
+    render();
+    return;
+  }
+  const cp = e.target.closest("[data-copy]");
+  if (cp) {
+    const r = data.repos.find(x => x.name === cp.dataset.copy);
+    navigator.clipboard.writeText(topicMaterial(r)).then(() => toast("已复制，可以直接粘贴给 Claude 写帖子"), () => toast("复制失败，请手动复制"));
+  }
+});
+["q", "pain", "lang", "min", "sort", "friendly", "commercial"].forEach(id => $(id).addEventListener("input", () => { shown = PAGE; render(); }));
 $("more").addEventListener("click", () => { shown += PAGE; render(); });
 
-counts();
-fetch("data/latest.json", { cache: "no-cache" })
-  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then(d => {
-    data = d;
-    const langs = {};
-    d.repos.forEach(r => { if (r.language) langs[r.language] = (langs[r.language] || 0) + 1; });
-    $("lang").innerHTML += Object.entries(langs).sort((a, b) => b[1] - a[1])
-      .map(([l, n]) => `<option value="${esc(l)}">${esc(l)}（${n}）</option>`).join("");
-    const t = new Date(d.generated_at);
-    $("status").textContent = `跟踪 ${d.repos.length} 个仓库 · 已积累 ${d.history_days} 天快照 · 更新于 ${t.toLocaleString("zh-CN", { hour12: false })}`;
-    render();
-  })
-  .catch(err => {
-    $("status").textContent = "数据加载失败：" + err.message;
-    $("list").innerHTML = '<div class="empty">还没有数据。先运行一次 scripts/fetch.py，或在 Actions 里手动触发 Update data。</div>';
+const getJSON = (url, fallback) => fetch(url, { cache: "no-cache" })
+  .then(r => r.ok ? r.json() : fallback).catch(() => fallback);
+
+renderTabs();
+Promise.all([
+  fetch("data/latest.json", { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+  getJSON("data/enriched.json", {}),
+  getJSON("config/taxonomy.json", { categories: [], pain_points: [] }),
+]).then(([d, enriched, t]) => {
+  tax = t;
+  t.categories.forEach(c => catName[c.id] = c.name);
+  t.pain_points.forEach(p => painName[p.id] = p.name);
+  d.repos.forEach(r => {
+    const c = enriched[r.name];
+    if (c && !c.skipped) r.card = c;
+    r.chain = chainScore(r);
+    r.wrappable = wrappable(r);
   });
+  data = d;
+  $("pain").innerHTML += t.pain_points.map(p => `<option value="${p.id}">${esc(p.name)}</option>`).join("");
+  const langs = {};
+  d.repos.forEach(r => { if (r.language) langs[r.language] = (langs[r.language] || 0) + 1; });
+  $("lang").innerHTML += Object.entries(langs).sort((a, b) => b[1] - a[1])
+    .map(([l, n]) => `<option value="${esc(l)}">${esc(l)}（${n}）</option>`).join("");
+  const nCards = d.repos.filter(r => r.card).length;
+  const time = new Date(d.generated_at).toLocaleString("zh-CN", { hour12: false });
+  $("status").textContent = `跟踪 ${d.repos.length} 个仓库 · ${nCards} 个已有中文介绍 · 已积累 ${d.history_days} 天快照 · 更新于 ${time}`;
+  render();
+}).catch(err => {
+  $("status").textContent = "数据加载失败：" + err.message;
+  $("list").innerHTML = '<div class="empty">还没有数据。先运行一次 scripts/fetch.py，或在 Actions 里手动触发 Update data。</div>';
+});
 </script>
 </body>
 </html>

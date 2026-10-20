@@ -32,7 +32,9 @@ TRENDING_LANGS = [s.strip() for s in os.environ.get(
 TRENDING_PERIODS = ["daily", "weekly", "monthly"]
 NEW_REPO_DAYS = 30          # 「新秀」= 最近 N 天内创建
 SEARCH_PAGES = 3            # 新秀搜索每页 100 个
-MAX_TRACKED = 3000          # 跟踪池上限
+CATEGORY_PER_QUERY = 30     # 类目搜索每个关键词取前 N 个（按 star）
+CATEGORY_ACTIVE_DAYS = 180  # 类目搜索只要最近 N 天内有更新的仓库
+MAX_TRACKED = 5000          # 跟踪池上限
 STALE_DAYS = 45             # 超过 N 天没出现在任何来源、且周增量很低的仓库会被移出
 HISTORY_DAYS = 90
 SPARK_DAYS = 30
@@ -136,7 +138,30 @@ def from_rest(r):
         "pushed_at": r.get("pushed_at"),
         "homepage": r.get("homepage") or "",
         "archived": r.get("archived", False),
+        "license": (r.get("license") or {}).get("spdx_id"),
     }
+
+
+def search_category_repos(today):
+    """按 config/taxonomy.json 里每个类目的搜索词补充跟踪池。返回 {name: 元信息}。"""
+    with open(os.path.join(ROOT, "config", "taxonomy.json"), encoding="utf-8") as f:
+        taxonomy = json.load(f)
+    since = (today - dt.timedelta(days=CATEGORY_ACTIVE_DAYS)).isoformat()
+    out = {}
+    for cat in taxonomy["categories"]:
+        for term in cat["search"]:
+            q = "%s stars:>100 pushed:>%s archived:false" % (term, since)
+            url = "https://api.github.com/search/repositories?" + urllib.parse.urlencode(
+                {"q": q, "sort": "stars", "order": "desc", "per_page": CATEGORY_PER_QUERY})
+            try:
+                items = json.loads(request(url, headers=api_headers())).get("items", [])
+            except Exception as e:  # noqa: BLE001
+                log("类目搜索「%s」失败：%s" % (term, e))
+                continue
+            for r in items:
+                out[r["full_name"]] = from_rest(r)
+            time.sleep(2.2)  # 认证后的搜索限 30 次/分钟
+    return out
 
 
 def search_new_repos(today):
@@ -160,6 +185,7 @@ def search_new_repos(today):
 GQL_FIELDS = """
   nameWithOwner description url homepageUrl stargazerCount forkCount
   createdAt pushedAt isArchived
+  licenseInfo { spdxId }
   primaryLanguage { name color }
   repositoryTopics(first: 6) { nodes { topic { name } } }
 """
@@ -202,6 +228,7 @@ def refresh_graphql(names):
                 "pushed_at": r["pushedAt"],
                 "homepage": r.get("homepageUrl") or "",
                 "archived": r["isArchived"],
+                "license": (r.get("licenseInfo") or {}).get("spdxId"),
             }
         log("GraphQL 已刷新 %d/%d" % (min(i + 80, len(names)), len(names)))
     return result
@@ -277,6 +304,19 @@ def main():
             seeds.setdefault(r["name"], {}).update(r)
     except Exception as e:  # noqa: BLE001
         log("新秀搜索失败：%s" % e)
+    # 类目搜索一天一次就够，而且需要 token（未认证搜索只有 10 次/分钟）
+    state = load("state.json", {})
+    if not TOKEN:
+        log("无 token，跳过类目搜索")
+    elif state.get("category_search") == today_s:
+        log("今天已做过类目搜索，跳过")
+    else:
+        found = search_category_repos(today)
+        for name, r in found.items():
+            seeds.setdefault(name, {}).update(r)
+        state["category_search"] = today_s
+        save("state.json", state, pretty=True)
+        log("类目搜索补充 %d 个仓库" % len(found))
     log("种子合计 %d 个仓库" % len(seeds))
 
     for name in seeds:
