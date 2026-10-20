@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub 开源看板</title>
+<meta name="description" content="追踪 GitHub 开源项目的 star 增量：今日、本周、本月飙升与新秀项目。">
+<style>
+:root {
+  --bg: #f6f7f9; --panel: #fff; --text: #16181d; --muted: #646b78; --faint: #9aa1ad;
+  --line: #e4e7ec; --chip: #f0f2f5; --accent: #2f6fed; --accent-soft: #e8efff;
+  --up: #1a8f4c; --up-soft: #e6f6ec; --star: #e3a008; --shadow: 0 1px 2px rgba(16,24,40,.04);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1115; --panel: #171a21; --text: #e7e9ee; --muted: #9aa1ad; --faint: #6b7280;
+    --line: #262b35; --chip: #20242d; --accent: #6b9bff; --accent-soft: #1c2740;
+    --up: #4cc38a; --up-soft: #15291f; --star: #f0b429; --shadow: none;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1115; --panel: #171a21; --text: #e7e9ee; --muted: #9aa1ad; --faint: #6b7280;
+  --line: #262b35; --chip: #20242d; --accent: #6b9bff; --accent-soft: #1c2740;
+  --up: #4cc38a; --up-soft: #15291f; --star: #f0b429; --shadow: none;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 14px/1.55 -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", sans-serif;
+}
+a { color: inherit; text-decoration: none; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 32px 16px 64px; }
+header .kicker { font-size: 12px; letter-spacing: .12em; color: var(--accent); font-weight: 600; }
+header h1 { margin: 6px 0 4px; font-size: 28px; }
+header p { margin: 0; color: var(--muted); }
+.status { margin-top: 10px; font-size: 12px; color: var(--faint); }
+
+.tabs { display: flex; gap: 4px; margin: 24px 0 14px; padding: 4px; background: var(--chip); border-radius: 10px; overflow-x: auto; }
+.tabs button {
+  flex: 1 0 auto; border: 0; background: none; color: var(--muted); padding: 8px 14px;
+  border-radius: 7px; font: inherit; font-weight: 500; cursor: pointer; white-space: nowrap;
+}
+.tabs button.on { background: var(--panel); color: var(--text); box-shadow: var(--shadow); }
+.tabs .count { color: var(--faint); font-size: 12px; margin-left: 4px; }
+
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.filters input, .filters select {
+  height: 34px; padding: 0 10px; border: 1px solid var(--line); border-radius: 8px;
+  background: var(--panel); color: var(--text); font: inherit;
+}
+.filters input { flex: 1 1 220px; min-width: 0; }
+.filters select { flex: 0 0 auto; }
+
+.list { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); }
+.item { display: grid; grid-template-columns: 28px 36px 1fr auto; gap: 12px; padding: 14px 16px; border-top: 1px solid var(--line); }
+.item:first-child { border-top: 0; }
+.rank { color: var(--faint); font-variant-numeric: tabular-nums; text-align: right; padding-top: 8px; font-size: 13px; }
+.avatar { width: 36px; height: 36px; border-radius: 8px; background: var(--chip); }
+.main { min-width: 0; }
+.title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.title a.name { font-weight: 600; font-size: 15px; word-break: break-all; }
+.title a.name:hover { color: var(--accent); }
+.title .owner { color: var(--muted); font-weight: 400; }
+.badge { font-size: 11px; padding: 1px 6px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); }
+.desc { color: var(--muted); margin: 3px 0 6px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--muted); align-items: center; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; }
+.topics { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+.topics span { font-size: 11px; padding: 1px 7px; border-radius: 10px; background: var(--chip); color: var(--muted); }
+.side { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; min-width: 120px; }
+.delta { font-size: 18px; font-weight: 700; color: var(--up); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.delta.none { color: var(--faint); font-weight: 500; font-size: 14px; }
+.delta small { font-size: 11px; font-weight: 500; color: var(--muted); margin-left: 2px; }
+.rate { font-size: 11px; color: var(--up); background: var(--up-soft); padding: 0 6px; border-radius: 4px; }
+svg.spark { display: block; }
+.watch { border: 0; background: none; cursor: pointer; font-size: 16px; color: var(--faint); padding: 0 2px; line-height: 1; }
+.watch.on { color: var(--star); }
+
+.empty { padding: 48px 16px; text-align: center; color: var(--muted); }
+.more { display: block; margin: 16px auto 0; padding: 8px 20px; border: 1px solid var(--line); background: var(--panel); color: var(--text); border-radius: 8px; font: inherit; cursor: pointer; }
+footer { margin-top: 28px; font-size: 12px; color: var(--faint); text-align: center; }
+
+@media (max-width: 640px) {
+  .wrap { padding-top: 20px; }
+  header h1 { font-size: 22px; }
+  .item { grid-template-columns: 32px 1fr; gap: 4px 10px; padding: 12px; }
+  .rank { display: none; }
+  .avatar { width: 32px; height: 32px; }
+  .side { grid-column: 2; flex-direction: row; align-items: center; justify-content: flex-start; gap: 10px; min-width: 0; }
+  .side .watch { order: 9; margin-left: auto; }
+  .delta { font-size: 16px; }
+  svg.spark { width: 80px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="kicker">GITHUB / 开源看板</div>
+    <h1>开源项目飙升榜</h1>
+    <p>按 star 增量排序，看看这段时间哪些项目在涨。</p>
+    <div class="status" id="status">正在加载数据…</div>
+  </header>
+
+  <nav class="tabs" id="tabs"></nav>
+
+  <div class="filters">
+    <input id="q" type="search" placeholder="搜索仓库名、描述或 topic">
+    <select id="lang"><option value="">全部语言</option></select>
+    <select id="min">
+      <option value="0">不限 star</option>
+      <option value="100">≥ 100</option>
+      <option value="1000">≥ 1k</option>
+      <option value="10000">≥ 10k</option>
+    </select>
+    <select id="sort">
+      <option value="delta">按增量</option>
+      <option value="rate">按增长率</option>
+      <option value="stars">按总 star</option>
+    </select>
+  </div>
+
+  <div class="list" id="list"></div>
+  <button class="more" id="more" hidden>加载更多</button>
+
+  <footer>数据来自 GitHub Trending、Search 与 GraphQL API，由 GitHub Actions 每 6 小时更新。带 ~ 的数字来自 Trending 估算，历史快照满 30 天后全部改用实测值。</footer>
+</div>
+
+<script>
+const TABS = [
+  { id: "d1", label: "今日飙升", key: "d1", unit: "今日" },
+  { id: "d7", label: "本周", key: "d7", unit: "本周" },
+  { id: "d30", label: "本月", key: "d30", unit: "本月" },
+  { id: "new", label: "新秀", key: "d7", unit: "本周", filter: r => r.is_new },
+  { id: "watch", label: "我的关注", key: "d7", unit: "本周", filter: r => watch.has(r.name) },
+];
+const PAGE = 50;
+const $ = id => document.getElementById(id);
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+};
+const watch = new Set(store.get("gh-board-watch", []));
+let data = { repos: [] }, tab = TABS.find(t => t.id === location.hash.slice(1)) || TABS[0], shown = PAGE;
+
+const fmt = n => n >= 1e5 ? Math.round(n / 1e3) + "k" : n >= 1e3 ? (n / 1e3).toFixed(1).replace(/\.0$/, "") + "k" : String(n);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+function ago(iso) {
+  if (!iso) return "";
+  const h = (Date.now() - new Date(iso)) / 36e5;
+  if (h < 1) return "刚刚";
+  if (h < 24) return Math.floor(h) + " 小时前";
+  if (h < 24 * 30) return Math.floor(h / 24) + " 天前";
+  if (h < 24 * 365) return Math.floor(h / 24 / 30) + " 个月前";
+  return Math.floor(h / 24 / 365) + " 年前";
+}
+function rate(r, key) {
+  const d = r[key];
+  if (d == null || r.stars - d <= 0) return null;
+  return d / (r.stars - d);
+}
+function spark(values) {
+  const pts = values.map((v, i) => [i, v]).filter(p => p[1] != null);
+  if (pts.length < 2) return "";
+  const w = 110, h = 28, n = values.length - 1 || 1;
+  const ys = pts.map(p => p[1]), lo = Math.min(...ys), hi = Math.max(...ys), span = hi - lo || 1;
+  const d = pts.map(([i, v], k) => (k ? "L" : "M") + (i / n * w).toFixed(1) + "," + (h - 2 - (v - lo) / span * (h - 4)).toFixed(1)).join("");
+  return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true"><path d="${d}" fill="none" stroke="var(--up)" stroke-width="1.6" stroke-linejoin="round"/></svg>`;
+}
+
+function filtered() {
+  const q = $("q").value.trim().toLowerCase(), lang = $("lang").value, min = +$("min").value, sort = $("sort").value;
+  const key = tab.key;
+  let rows = data.repos.filter(r =>
+    (!tab.filter || tab.filter(r)) &&
+    (!lang || r.language === lang) &&
+    r.stars >= min &&
+    (!q || (r.name + " " + (r.description || "") + " " + (r.topics || []).join(" ")).toLowerCase().includes(q)));
+  if (tab.id !== "watch") rows = rows.filter(r => r[key] != null && r[key] > 0);
+  const score = sort === "stars" ? r => r.stars : sort === "rate" ? r => rate(r, key) ?? -1 : r => r[key] ?? -1;
+  return rows.sort((a, b) => score(b) - score(a) || b.stars - a.stars);
+}
+
+function render() {
+  document.querySelectorAll("#tabs button").forEach(b => b.classList.toggle("on", b.dataset.id === tab.id));
+  const rows = filtered(), key = tab.key;
+  if (!rows.length) {
+    $("list").innerHTML = `<div class="empty">${tab.id === "watch" ? "还没有关注的仓库，点列表右侧的 ☆ 就能加进来。" : "没有符合条件的仓库。"}</div>`;
+    $("more").hidden = true;
+    return;
+  }
+  $("list").innerHTML = rows.slice(0, shown).map((r, i) => {
+    const [owner, repo] = r.name.split("/");
+    const d = r[key], rt = rate(r, key);
+    return `<div class="item">
+      <div class="rank">${i + 1}</div>
+      <img class="avatar" loading="lazy" alt="" src="https://github.com/${esc(owner)}.png?size=72">
+      <div class="main">
+        <div class="title">
+          <a class="name" href="https://github.com/${esc(r.name)}" target="_blank" rel="noopener"><span class="owner">${esc(owner)} /</span> ${esc(repo)}</a>
+          ${r.is_new ? '<span class="badge">新秀</span>' : ""}
+          ${r.trending_rank ? `<span class="badge">Trending #${r.trending_rank}</span>` : ""}
+          ${r.archived ? '<span class="badge">已归档</span>' : ""}
+        </div>
+        ${r.description ? `<div class="desc">${esc(r.description)}</div>` : ""}
+        <div class="meta">
+          ${r.language ? `<span><i class="dot" style="background:${esc(r.lang_color || "var(--faint)")}"></i>${esc(r.language)}</span>` : ""}
+          <span>★ ${fmt(r.stars)}</span>
+          <span>⑂ ${fmt(r.forks)}</span>
+          ${r.pushed_at ? `<span>更新于 ${ago(r.pushed_at)}</span>` : ""}
+          ${r.created_at ? `<span>创建于 ${r.created_at.slice(0, 10)}</span>` : ""}
+        </div>
+        ${r.topics && r.topics.length ? `<div class="topics">${r.topics.map(t => `<span>${esc(t)}</span>`).join("")}</div>` : ""}
+      </div>
+      <div class="side">
+        <button class="watch ${watch.has(r.name) ? "on" : ""}" data-name="${esc(r.name)}" title="关注">${watch.has(r.name) ? "★" : "☆"}</button>
+        ${d != null ? `<div class="delta">${r[key + "_est"] ? "~" : ""}+${fmt(d)}<small>${tab.unit}</small></div>` : '<div class="delta none">暂无增量</div>'}
+        ${rt != null && rt >= 0.01 ? `<span class="rate">+${(rt * 100).toFixed(rt < 0.1 ? 1 : 0)}%</span>` : ""}
+        ${spark(r.spark || [])}
+      </div>
+    </div>`;
+  }).join("");
+  $("more").hidden = rows.length <= shown;
+  $("more").textContent = `加载更多（还有 ${rows.length - shown} 个）`;
+}
+
+function counts() {
+  $("tabs").innerHTML = TABS.map(t => {
+    const n = t.id === "watch" ? watch.size : null;
+    return `<button data-id="${t.id}">${t.label}${n != null ? `<span class="count">${n}</span>` : ""}</button>`;
+  }).join("");
+}
+
+$("tabs").addEventListener("click", e => {
+  const b = e.target.closest("button");
+  if (!b) return;
+  tab = TABS.find(t => t.id === b.dataset.id);
+  history.replaceState(null, "", "#" + tab.id);
+  shown = PAGE; render();
+});
+$("list").addEventListener("click", e => {
+  const b = e.target.closest(".watch");
+  if (!b) return;
+  const n = b.dataset.name;
+  watch.has(n) ? watch.delete(n) : watch.add(n);
+  store.set("gh-board-watch", [...watch]);
+  counts(); render();
+});
+["q", "lang", "min", "sort"].forEach(id => $(id).addEventListener("input", () => { shown = PAGE; render(); }));
+$("more").addEventListener("click", () => { shown += PAGE; render(); });
+
+counts();
+fetch("data/latest.json", { cache: "no-cache" })
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => {
+    data = d;
+    const langs = {};
+    d.repos.forEach(r => { if (r.language) langs[r.language] = (langs[r.language] || 0) + 1; });
+    $("lang").innerHTML += Object.entries(langs).sort((a, b) => b[1] - a[1])
+      .map(([l, n]) => `<option value="${esc(l)}">${esc(l)}（${n}）</option>`).join("");
+    const t = new Date(d.generated_at);
+    $("status").textContent = `跟踪 ${d.repos.length} 个仓库 · 已积累 ${d.history_days} 天快照 · 更新于 ${t.toLocaleString("zh-CN", { hour12: false })}`;
+    render();
+  })
+  .catch(err => {
+    $("status").textContent = "数据加载失败：" + err.message;
+    $("list").innerHTML = '<div class="empty">还没有数据。先运行一次 scripts/fetch.py，或在 Actions 里手动触发 Update data。</div>';
+  });
+</script>
+</body>
+</html>
