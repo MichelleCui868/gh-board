@@ -1603,6 +1603,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-21"
  },
+ "Pal-AI-Lab/Coopanion": {
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-21"
+ },
  "Pan-Chera/Multi-Agent-CAD": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-21"
@@ -3171,10 +3175,6 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-21"
  },
- "corrinehu/dsh-workbuddy-connect": {
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-21"
- },
  "corvo007/MioSub": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-21"
@@ -4255,6 +4255,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-21"
  },
+ "ikow/php2shell-poc": {
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-21"
+ },
  "ileivoivm/inkField": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-21"
@@ -4485,6 +4489,10 @@
  },
  "jo-inc/camofox-browser": {
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-21"
+ },
+ "joeseesun/opus-video-prompts": {
+  "first_seen": "2026-10-21",
   "last_seen": "2026-10-21"
  },
  "jonyzhang2023/awesome-embodied-vla-va-vln": {
@@ -6431,6 +6439,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-21"
  },
+ "sourcepro5/WeChatAgent": {
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-21"
+ },
  "spatie/laravel-sitemap": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-21"
@@ -6635,7 +6647,7 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-21"
  },
- "t4t5/omdrop-owl": {
+ "t4t5/owly": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-21"
  },
