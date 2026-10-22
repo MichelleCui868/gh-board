@@ -245,6 +245,11 @@ function chainScore(r) {
   s += { 1: 10, 2: 6, 3: 2 }[c.difficulty] || 0;
   return s;
 }
+// 有卡片用卡片的类目；没有卡片时用类目搜索命中的类目，标为「初步」
+function catsOf(r) {
+  if (r.card) return r.card.categories;
+  return (r.seed_cats || []).map(id => ({ id, sub: "", prov: true }));
+}
 function wrappable(r) {
   const c = r.card;
   return !!c && c.batch_ok && c.interfaces.some(i => ["CLI", "Python 库", "Node 库", "HTTP API"].includes(i))
@@ -272,7 +277,7 @@ function base() {
   });
 }
 function filtered(rows) {
-  if (cat) rows = rows.filter(r => r.card && r.card.categories.some(c => c.id === cat));
+  if (cat) rows = rows.filter(r => catsOf(r).some(c => c.id === cat));
   const key = tab.key, sort = $("sort").value;
   const score = sort === "stars" ? r => r.stars
     : sort === "rate" ? r => rate(r, key) ?? -1
@@ -283,7 +288,7 @@ function filtered(rows) {
 
 function renderCats(rows) {
   const counts = {};
-  rows.forEach(r => r.card && r.card.categories.forEach(c => counts[c.id] = (counts[c.id] || 0) + 1));
+  rows.forEach(r => catsOf(r).forEach(c => counts[c.id] = (counts[c.id] || 0) + 1));
   $("cats").innerHTML = `<button data-cat="" class="${cat ? "" : "on"}">全部</button>` +
     tax.categories.map(c => `<button data-cat="${c.id}" class="${cat === c.id ? "on" : ""}">${esc(c.name)}<span class="n">${counts[c.id] || 0}</span></button>`).join("");
 }
@@ -329,8 +334,10 @@ function render() {
     const [owner, repo] = r.name.split("/");
     const c = r.card, d = r[key], rt = rate(r, key), lk = licenseKind(r.license);
     const tags = [];
+    catsOf(r).forEach(x => tags.push(x.prov
+      ? `<span class="tag" title="按搜索词初步归类，生成中文介绍后会更新">${esc(catName[x.id] || x.id)}（初步）</span>`
+      : `<span class="tag cat">${esc(catName[x.id] || x.id)}${x.sub ? " · " + esc(x.sub) : ""}</span>`));
     if (c) {
-      c.categories.forEach(x => tags.push(`<span class="tag cat">${esc(catName[x.id] || x.id)}${x.sub ? " · " + esc(x.sub) : ""}</span>`));
       c.pain_points.forEach(p => tags.push(`<span class="tag pain">${esc(painName[p] || p)}</span>`));
       if (c.newbie_friendly === "友好") tags.push('<span class="tag good">普通人能用</span>');
       if (r.wrappable) tags.push('<span class="tag good">适合包成 Skill</span>');

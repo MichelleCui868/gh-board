@@ -12,6 +12,7 @@
 没有 GITHUB_TOKEN 时也能跑：只刷新 Trending/Search 拿到的仓库，其余仓库当天记为空值。
 """
 import datetime as dt
+import hashlib
 import html
 import json
 import os
@@ -142,12 +143,24 @@ def from_rest(r):
     }
 
 
-def search_category_repos(today):
-    """按 config/taxonomy.json 里每个类目的搜索词补充跟踪池。返回 {name: 元信息}。"""
+def load_taxonomy():
     with open(os.path.join(ROOT, "config", "taxonomy.json"), encoding="utf-8") as f:
-        taxonomy = json.load(f)
+        return json.load(f)
+
+
+def search_terms_hash(taxonomy):
+    """搜索词的指纹：改了 taxonomy.json 里的搜索词，当天就会重新搜一次。"""
+    terms = [[c["id"], c["search"]] for c in taxonomy["categories"]]
+    return hashlib.md5(json.dumps(terms, ensure_ascii=False).encode()).hexdigest()[:12]
+
+
+def search_category_repos(today, taxonomy):
+    """按每个类目的搜索词补充跟踪池。
+
+    返回 ({name: 元信息}, {name: 命中的类目 id 集合})。命中的类目在没有 LLM 卡片时用作初步分类。
+    """
     since = (today - dt.timedelta(days=CATEGORY_ACTIVE_DAYS)).isoformat()
-    out = {}
+    out, hits = {}, {}
     for cat in taxonomy["categories"]:
         for term in cat["search"]:
             q = "%s stars:>100 pushed:>%s archived:false" % (term, since)
@@ -160,8 +173,9 @@ def search_category_repos(today):
                 continue
             for r in items:
                 out[r["full_name"]] = from_rest(r)
+                hits.setdefault(r["full_name"], set()).add(cat["id"])
             time.sleep(2.2)  # 认证后的搜索限 30 次/分钟
-    return out
+    return out, hits
 
 
 def search_new_repos(today):
@@ -306,15 +320,19 @@ def main():
         log("新秀搜索失败：%s" % e)
     # 类目搜索一天一次就够，而且需要 token（未认证搜索只有 10 次/分钟）
     state = load("state.json", {})
+    taxonomy = load_taxonomy()
+    terms_hash = search_terms_hash(taxonomy)
+    cat_hits = {}
     if not TOKEN:
         log("无 token，跳过类目搜索")
-    elif state.get("category_search") == today_s:
+    elif state.get("category_search") == today_s and state.get("category_terms") == terms_hash:
         log("今天已做过类目搜索，跳过")
     else:
-        found = search_category_repos(today)
+        found, cat_hits = search_category_repos(today, taxonomy)
         for name, r in found.items():
             seeds.setdefault(name, {}).update(r)
         state["category_search"] = today_s
+        state["category_terms"] = terms_hash
         save("state.json", state, pretty=True)
         log("类目搜索补充 %d 个仓库" % len(found))
     log("种子合计 %d 个仓库" % len(seeds))
@@ -322,6 +340,8 @@ def main():
     for name in seeds:
         t = tracked.setdefault(name, {"first_seen": today_s})
         t["last_seen"] = today_s
+        if name in cat_hits:
+            t["cats"] = sorted(set(t.get("cats", [])) | cat_hits[name])
 
     # 2. 刷新元信息
     meta = {}
@@ -392,6 +412,9 @@ def main():
         if name in trending_rank:
             row["trending_rank"] = trending_rank[name]
         row["spark"] = series[-SPARK_DAYS:]
+        row.pop("seed_cats", None)
+        if tracked[name].get("cats"):
+            row["seed_cats"] = tracked[name]["cats"]   # 类目搜索命中的类目，前端在没有卡片时当初步分类
         repos.append(row)
 
     # 5. 清理跟踪池：长期没出现在来源里、且周增量很低的仓库移出；超过上限按周增量截断
