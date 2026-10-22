@@ -2350,6 +2350,10 @@
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-22"
  },
+ "NVIDIA/flare-local-inference": {
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
  "NVIDIA/nccl": {
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-22"
