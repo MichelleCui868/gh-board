@@ -452,10 +452,6 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-23"
  },
- "AnkioTomas/qqpet": {
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-23"
- },
  "Ansub/tv-detox": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-23"
@@ -2749,6 +2745,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-23"
  },
+ "OverkillLabs3/driveclub-recomp": {
+  "first_seen": "2026-10-23",
+  "last_seen": "2026-10-23"
+ },
  "Owloops/updo": {
   "cats": [
    "seo"
@@ -2824,6 +2824,10 @@
    "social"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-23"
+ },
+ "Paradigm-Study/claude-share": {
+  "first_seen": "2026-10-23",
   "last_seen": "2026-10-23"
  },
  "PatchMon/PatchMon": {
@@ -6545,13 +6549,6 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-23"
  },
- "ferranpons/Llamatik": {
-  "cats": [
-   "audio"
-  ],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-23"
- },
  "feyninc/nobg": {
   "cats": [
    "image"
@@ -8564,6 +8561,13 @@
  "liyedanpdx/reddit-ai-trends": {
   "cats": [
    "knowledge"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-23"
+ },
+ "llamatik/Llamatik": {
+  "cats": [
+   "audio"
   ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-23"
