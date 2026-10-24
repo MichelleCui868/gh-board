@@ -97,7 +97,7 @@
  },
  "648540858/wvp-GB28181-pro": {
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "78/xiaozhi-esp32": {
   "first_seen": "2026-10-20",
@@ -561,6 +561,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "Automattic/harper": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "Autumn-27/ScopeSentry": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
@@ -744,6 +748,10 @@
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-24"
  },
+ "CapSoftware/Cap": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "Card-Forge/forge": {
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-23"
@@ -782,7 +790,7 @@
  },
  "ClickHouse/ClickHouse": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "CloakHQ/CloakBrowser": {
   "cats": [
@@ -1265,6 +1273,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "FujiwaraChoki/supoclip": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "FurkanGozukara/Stable-Diffusion": {
   "cats": [
    "art",
@@ -1331,6 +1343,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "Gentleman-Programming/gentle-ai": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "GetLostIn/CTR-NitroFueled-PC": {
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-24"
@@ -1344,7 +1360,7 @@
  },
  "GeyserMC/Geyser": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "Gingiris/growth-tools": {
   "cats": [
@@ -1712,6 +1728,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "JetBrains/intellij-community": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "JiSenHua/ComfyUI-TD": {
   "cats": [
    "art"
@@ -1779,7 +1799,7 @@
  },
  "JuliusBrussee/caveman": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "JustinBeckwith/linkinator": {
   "cats": [
@@ -2427,7 +2447,7 @@
  },
  "NVIDIA/cutlass": {
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "NVIDIA/flare-local-inference": {
   "first_seen": "2026-10-22",
@@ -2535,7 +2555,7 @@
  },
  "NomaDamas/CozyClay": {
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "Noniv/web-ocean": {
   "first_seen": "2026-10-20",
@@ -2571,6 +2591,10 @@
    "ecommerce"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-24"
+ },
+ "Nutlope/hallmark": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "Nutlope/notesGPT": {
@@ -2763,11 +2787,19 @@
   "first_seen": "2026-10-23",
   "last_seen": "2026-10-24"
  },
+ "OpenSenseNova/SenseNova-Skills": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "OpenShot/openshot-qt": {
   "cats": [
    "video"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-24"
+ },
+ "OpenWhispr/openwhispr": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "Openpanel-dev/openpanel": {
@@ -3856,6 +3888,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "TriliumNext/Trilium": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "TwiN/gatus": {
   "cats": [
    "seo"
@@ -4147,6 +4183,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "Z3Prover/z3": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "Z4nzu/hackingtool": {
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-23"
@@ -4245,6 +4285,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "aaif-goose/goose": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "aapatre/Automatic-Udemy-Course-Enroller-GET-PAID-UDEMY-COURSES-for-FREE": {
   "cats": [
    "scrape"
@@ -4317,6 +4361,10 @@
    "ecommerce"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-24"
+ },
+ "actions/checkout": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "activemerchant/active_merchant": {
@@ -4412,6 +4460,10 @@
  "agentscope-ai/agentscope-java": {
   "first_seen": "2026-10-21",
   "last_seen": "2026-10-23"
+ },
+ "agentskills/agentskills": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
  },
  "agiwhitelist/auteur": {
   "cats": [
@@ -4680,6 +4732,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-21"
  },
+ "amosblomqvist/learnharness": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "amywork777/lipflow": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
@@ -4771,10 +4827,18 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "anthropics/sandbox-runtime": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "antirez/iris.c": {
   "cats": [
    "image"
   ],
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "antonio-orionus/Arroxy": {
   "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
@@ -4830,6 +4894,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "apache/gravitino": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "apache/hertzbeat": {
   "cats": [
    "seo"
@@ -4839,7 +4907,7 @@
  },
  "apache/iggy": {
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "apache/kafka": {
   "first_seen": "2026-10-20",
@@ -4856,6 +4924,10 @@
  "apache/shenyu": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-21"
+ },
+ "apache/tomcat": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
  },
  "apify/apify-mcp-server": {
   "cats": [
@@ -4997,6 +5069,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "assetnote/php2shell-scanner": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "astral-sh/uv": {
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-24"
@@ -5082,6 +5158,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "aws/agent-toolkit-for-aws": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "axiomgraph/ComfyUIWorkflow": {
   "cats": [
    "image"
@@ -5098,6 +5178,10 @@
    "audio"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-24"
+ },
+ "backnotprop/plannotator": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "badlydrawnrob/anki": {
@@ -5160,6 +5244,10 @@
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-24"
  },
+ "basketikun/infinite-canvas": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "bazelbuild/bazel": {
   "first_seen": "2026-10-23",
   "last_seen": "2026-10-24"
@@ -5197,6 +5285,10 @@
    "office"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-24"
+ },
+ "bendlang/bend": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "best-of-ai/awesome-ai-seo": {
@@ -5467,6 +5559,10 @@
    "art"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-24"
+ },
+ "calcom/cal.diy": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "calesthio/OpenMontage": {
@@ -5823,6 +5919,14 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "crewAIInc/crewAI": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "crimera/piko": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "croffasia/itsaplan": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-22"
@@ -5876,6 +5980,10 @@
  },
  "dach6/ExaltHelper": {
   "first_seen": "2026-10-22",
+  "last_seen": "2026-10-24"
+ },
+ "danielmiessler/Fabric": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "darkzOGx/youtube-automation-agent": {
@@ -6022,7 +6130,7 @@
  },
  "deepseek-ai/FlashMLA": {
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "delucis/starlight-llms-txt": {
   "cats": [
@@ -6345,7 +6453,7 @@
  },
  "electron/electron": {
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "elegantapp/pwa-asset-generator": {
   "cats": [
@@ -6413,6 +6521,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-21"
  },
+ "emilk/egui": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "enactic/openarm": {
   "cats": [
    "embodied"
@@ -6430,6 +6542,10 @@
  },
  "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC": {
   "first_seen": "2026-10-22",
+  "last_seen": "2026-10-24"
+ },
+ "envoyproxy/envoy": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "ericosiu/ai-marketing-skills": {
@@ -6477,6 +6593,10 @@
  },
  "ethanplusai/harvey": {
   "first_seen": "2026-10-21",
+  "last_seen": "2026-10-24"
+ },
+ "eugenioenko/ttt": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "evershopcommerce/evershop": {
@@ -6681,6 +6801,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "firebase/firebase-tools": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "firecrawl/firecrawl": {
   "cats": [
    "scrape"
@@ -6745,9 +6869,13 @@
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-24"
  },
+ "floci-io/floci": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "flowable/flowable-engine": {
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "fluxions-ai/vui": {
   "cats": [
@@ -6868,6 +6996,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "gastownhall/beads": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "gbionics/bipedal-locomotion-framework": {
   "cats": [
    "embodied"
@@ -6957,7 +7089,7 @@
  },
  "ggml-org/llama.cpp": {
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "gin-gonic/gin": {
   "first_seen": "2026-10-20",
@@ -7089,6 +7221,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-21"
  },
+ "google-gemini/gemini-cli": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "google-pytorch/torch_tpu": {
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-23"
@@ -7112,6 +7248,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-23"
  },
+ "google/brotli": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "google/googletest": {
   "first_seen": "2026-10-23",
   "last_seen": "2026-10-24"
@@ -7131,6 +7271,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "goreleaser/goreleaser": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "gosom/google-maps-scraper": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-23"
@@ -7148,7 +7292,7 @@
  },
  "grafana/alloy": {
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "graygnatconsole/mcp-audit-tool": {
   "first_seen": "2026-10-22",
@@ -7226,6 +7370,10 @@
    "art"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-24"
+ },
+ "halo-dev/halo": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "handy-computer/transcribe.cpp": {
@@ -7358,8 +7506,16 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "henrygd/beszel": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit": {
   "first_seen": "2026-10-23",
+  "last_seen": "2026-10-24"
+ },
+ "herdrdev/herdr": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "heshengtao/comfyui_LLM_party": {
@@ -7647,6 +7803,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "imputnet/helium": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "index-tts/index-tts": {
   "cats": [
    "audio"
@@ -7896,6 +8056,10 @@
    "seo"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-24"
+ },
+ "jbiaojerry/ebook-treasure-chest": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "jbrooksuk/node-summary": {
@@ -8250,6 +8414,10 @@
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-24"
  },
+ "kedacore/keda": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "keepassxreboot/keepassxc": {
   "first_seen": "2026-10-23",
   "last_seen": "2026-10-24"
@@ -8277,7 +8445,7 @@
  },
  "kenn-io/agentsview": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-24"
  },
  "kennyzir/7deer_skills": {
   "cats": [
@@ -8428,6 +8596,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "kunal-kushwaha/DSA-Bootcamp-Java": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "kuratlielia/arc-library": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-23"
@@ -8490,6 +8662,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-21"
  },
+ "langfuse/langfuse": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "langgenius/dify": {
   "cats": [
    "automation"
@@ -8499,7 +8675,7 @@
  },
  "laoma528/awesome-zhuiju-free": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "laoshan-song/Awesome-LLM-Interview": {
   "cats": [
@@ -8870,6 +9046,10 @@
   "first_seen": "2026-10-23",
   "last_seen": "2026-10-24"
  },
+ "makecindy/cindy": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "marceloprates/prettymaps": {
   "cats": [
    "art"
@@ -9199,6 +9379,10 @@
   "first_seen": "2026-10-21",
   "last_seen": "2026-10-22"
  },
+ "microsoft/winget-cli": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "microweber/microweber": {
   "cats": [
    "ecommerce",
@@ -9209,7 +9393,7 @@
  },
  "mifi/lossless-cut": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-24"
  },
  "mikehasa/golive-skill": {
   "first_seen": "2026-10-20",
@@ -9292,6 +9476,10 @@
  },
  "mksglu/context-mode": {
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-24"
+ },
+ "ml-explore/mlx": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "mldangelo/personal-site": {
@@ -9485,6 +9673,10 @@
    "seo"
   ],
   "first_seen": "2026-10-22",
+  "last_seen": "2026-10-24"
+ },
+ "mzzvxm/LARecomp": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "n8n-io/n8n": {
@@ -9908,7 +10100,7 @@
  },
  "oauth2-proxy/oauth2-proxy": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "obsidianmd/pele": {
   "first_seen": "2026-10-20",
@@ -9926,6 +10118,10 @@
    "audio"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-24"
+ },
+ "official-stockfish/Stockfish": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "oil-oil/oil-ui": {
@@ -10188,6 +10384,10 @@
    "seo"
   ],
   "first_seen": "2026-10-22",
+  "last_seen": "2026-10-24"
+ },
+ "openvinotoolkit/openvino": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "openzim/zimit": {
@@ -10456,6 +10656,10 @@
   "first_seen": "2026-10-23",
   "last_seen": "2026-10-24"
  },
+ "pollen-robotics/microduck_rl": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "polyrabbit/hacker-news-digest": {
   "cats": [
    "knowledge",
@@ -10525,6 +10729,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "projectdiscovery/nuclei": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "projectdiscovery/nuclei-templates": {
   "first_seen": "2026-10-23",
   "last_seen": "2026-10-24"
@@ -10553,7 +10761,7 @@
  },
  "protocolbuffers/protobuf": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "pugson/telegram-twitter-url-expand-bot": {
   "cats": [
@@ -10611,6 +10819,10 @@
  },
  "pytorch/pytorch": {
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-24"
+ },
+ "qaiu/netdisk-fast-download": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "qbittorrent/qBittorrent": {
@@ -10687,7 +10899,7 @@
  },
  "ranxianglei/billion-context": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "rany2/edge-tts": {
   "cats": [
@@ -11340,6 +11552,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "simdjson/simdjson": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "simplcommerce/SimplCommerce": {
   "cats": [
    "ecommerce"
@@ -11385,6 +11601,10 @@
  },
  "skylot/jadx": {
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-24"
+ },
+ "slavakurilyak/awesome-ai-agents": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "slop-place/zulu": {
@@ -12139,6 +12359,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "traefik/traefik": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "trhhubsd/ARTEX": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
@@ -12204,7 +12428,7 @@
  },
  "tt-a1i/archify": {
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "tursodatabase/turso": {
   "first_seen": "2026-10-21",
@@ -12427,6 +12651,10 @@
  },
  "vercel-labs/skills": {
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-24"
+ },
+ "vercel/ai": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-24"
  },
  "vercel/commerce": {
@@ -12800,6 +13028,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "wopss/RED4ext": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "workopia/workopia-mcp": {
   "cats": [
    "job"
@@ -12947,7 +13179,7 @@
  },
  "xmanrui/dsh-im": {
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "xnx3/translate": {
   "cats": [
@@ -13248,6 +13480,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "zaproxy/zaproxy": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "zauberzeug/nicegui": {
   "cats": [
    "embodied"
@@ -13281,6 +13517,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-23"
  },
+ "zen-browser/desktop": {
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
  "zengweishuai/ScaleBFM": {
   "cats": [
    "embodied"
@@ -13297,7 +13537,7 @@
  },
  "zerx-lab/FluxDown": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "zeus-12/uxie": {
   "cats": [
