@@ -6221,6 +6221,10 @@
   "first_seen": "2026-10-25",
   "last_seen": "2026-10-26"
  },
+ "dagoSte/squadra": {
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
  "danielmiessler/Fabric": {
   "first_seen": "2026-10-24",
   "last_seen": "2026-10-25"
@@ -8140,6 +8144,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-26"
  },
+ "impacifist/Windows-GPU-UNLOCK": {
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
  "imputnet/helium": {
   "first_seen": "2026-10-24",
   "last_seen": "2026-10-26"
@@ -9117,6 +9125,10 @@
    "embodied"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-26"
+ },
+ "leolobato/playden-ps5": {
+  "first_seen": "2026-10-26",
   "last_seen": "2026-10-26"
  },
  "leon-ai/leon": {
@@ -10337,6 +10349,10 @@
    "video"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-26"
+ },
+ "nicobailon/pi-subagents": {
+  "first_seen": "2026-10-26",
   "last_seen": "2026-10-26"
  },
  "niedev/RTranslator": {
@@ -13027,6 +13043,10 @@
    "art"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-26"
+ },
+ "unclebob/ub-mode": {
+  "first_seen": "2026-10-26",
   "last_seen": "2026-10-26"
  },
  "unclecode/crawl4ai": {
