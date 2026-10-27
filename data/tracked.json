@@ -337,6 +337,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-27"
  },
+ "AienTech/dossier": {
+  "first_seen": "2026-10-27",
+  "last_seen": "2026-10-27"
+ },
  "AjncSystem/ShadowOfTheColossus-PC": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-27"
@@ -1072,6 +1076,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-27"
  },
+ "DrWhax/unfairplay": {
+  "first_seen": "2026-10-27",
+  "last_seen": "2026-10-27"
+ },
  "DravenALG/awesome-vla-wam": {
   "cats": [
    "embodied"
@@ -1717,6 +1725,10 @@
    "embodied"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-27"
+ },
+ "InukaAsith/TwinDesk": {
+  "first_seen": "2026-10-27",
   "last_seen": "2026-10-27"
  },
  "ItzCrazyKns/Vane": {
@@ -2565,7 +2577,7 @@
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-25"
  },
- "NVIDIA/flare-local-inference": {
+ "NVIDIA/local-inference": {
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-27"
  },
@@ -3417,7 +3429,7 @@
   "first_seen": "2026-10-27",
   "last_seen": "2026-10-27"
  },
- "ScenemaAI/scenema-audio": {
+ "Scenema/scenema-audio": {
   "cats": [
    "audio"
   ],
@@ -4347,6 +4359,10 @@
  },
  "YouROK/TorrServer": {
   "first_seen": "2026-10-26",
+  "last_seen": "2026-10-27"
+ },
+ "YuJunZhiXue/dsh-purge": {
+  "first_seen": "2026-10-27",
   "last_seen": "2026-10-27"
  },
  "YuZhaoshu/Efficient-VLAs-Survey": {
@@ -5716,10 +5732,6 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-27"
  },
- "breakstageaxe61/genspark-claw": {
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-10-24"
- },
  "brightbeanxyz/brightbean-studio": {
   "cats": [
    "social"
@@ -6267,6 +6279,10 @@
  },
  "crimera/piko": {
   "first_seen": "2026-10-24",
+  "last_seen": "2026-10-27"
+ },
+ "crmne/spotifast": {
+  "first_seen": "2026-10-27",
   "last_seen": "2026-10-27"
  },
  "croffasia/itsaplan": {
@@ -6822,6 +6838,10 @@
  },
  "elastic/elasticsearch": {
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-27"
+ },
+ "elayadesign/ai-design-skills": {
+  "first_seen": "2026-10-27",
   "last_seen": "2026-10-27"
  },
  "electron/electron": {
@@ -7758,10 +7778,6 @@
   "first_seen": "2026-10-27",
   "last_seen": "2026-10-27"
  },
- "graygnatconsole/mcp-audit-tool": {
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-10-24"
- },
  "grpc/grpc": {
   "first_seen": "2026-10-23",
   "last_seen": "2026-10-25"
@@ -8053,6 +8069,10 @@
    "audio"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-27"
+ },
+ "horizon-rust/horizon": {
+  "first_seen": "2026-10-24",
   "last_seen": "2026-10-27"
  },
  "howseen-ai/claude-motion-design": {
@@ -9484,10 +9504,6 @@
  },
  "lucasmarkes/hairline": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-27"
- },
- "ludovic111/horizon": {
-  "first_seen": "2026-10-24",
   "last_seen": "2026-10-27"
  },
  "lukaszliniewicz/Pandrator": {
