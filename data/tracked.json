@@ -415,6 +415,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
+ "Alterssss/dsh-bili-whale": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "Altimis/Scweet": {
   "cats": [
    "social"
@@ -502,6 +506,10 @@
    "embodied"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-28"
+ },
+ "AprilNEA/OpenLogi": {
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-28"
  },
  "ArcReel/ArcReel": {
@@ -961,10 +969,6 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
- "DLSS-5-Swaper-New/.github": {
-  "first_seen": "2026-10-28",
-  "last_seen": "2026-10-28"
- },
  "DTDucas/chm-converter": {
   "cats": [
    "office"
@@ -994,6 +998,10 @@
  "DataDog/dd-trace-go": {
   "first_seen": "2026-10-21",
   "last_seen": "2026-10-22"
+ },
+ "DavidHDev/react-bits": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
  },
  "DayBreak-u/chineseocr_lite": {
   "cats": [
@@ -1085,7 +1093,7 @@
  },
  "DrKLO/Telegram": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "DrWhax/unfairplay": {
   "first_seen": "2026-10-27",
@@ -1980,6 +1988,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
+ "KeygraphHQ/shannon": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "KillaBoi/StealMyBitcoin-PoC": {
   "first_seen": "2026-10-26",
   "last_seen": "2026-10-28"
@@ -2284,7 +2296,7 @@
  },
  "MHSanaei/3x-ui": {
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "MINT-SJTU/Evo-1": {
   "cats": [
@@ -2532,6 +2544,10 @@
   "first_seen": "2026-10-25",
   "last_seen": "2026-10-26"
  },
+ "Motionsites-AI/claude-skill": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "MtnViewJohn/context-free": {
   "cats": [
    "art"
@@ -2595,10 +2611,6 @@
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-25"
  },
- "NVIDIA/local-inference": {
-  "first_seen": "2026-10-22",
-  "last_seen": "2026-10-28"
- },
  "NVIDIA/nccl": {
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-23"
@@ -2608,6 +2620,10 @@
    "embodied"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-28"
+ },
+ "NVIDIA/spark-local-inference": {
+  "first_seen": "2026-10-22",
   "last_seen": "2026-10-28"
  },
  "NVIDIA/warp": {
@@ -3055,6 +3071,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
+ "ParadevAI/Paradev": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "Paradigm-Study/claude-share": {
   "first_seen": "2026-10-23",
   "last_seen": "2026-10-28"
@@ -3381,6 +3401,10 @@
  },
  "RuoJi6/ARTEX": {
   "first_seen": "2026-10-24",
+  "last_seen": "2026-10-28"
+ },
+ "RxNaison/Epson-Waste-Reset": {
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-28"
  },
  "Ryze-AI-Adgent/open-seo-mcp-skills": {
@@ -3738,6 +3762,10 @@
    "art"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-28"
+ },
+ "SpriteOvO/AirPodsDesktop": {
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-28"
  },
  "Squidex/squidex": {
@@ -4245,6 +4273,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
+ "Vita3K/Vita3K": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "VitalAudio/visage": {
   "cats": [
    "art"
@@ -4432,6 +4464,10 @@
  "Z4nzu/hackingtool": {
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-23"
+ },
+ "ZCShou/GoGoGo": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
  },
  "ZJU-REAL/Easel": {
   "cats": [
@@ -4846,6 +4882,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
+ "alchemy-run/alchemy": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "aldernero/sketchy": {
   "cats": [
    "art"
@@ -5026,6 +5066,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
+ "anchore/syft": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "andremichelle/openDAW": {
   "cats": [
    "audio"
@@ -5203,6 +5247,10 @@
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-28"
  },
+ "apache/iceberg": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "apache/iggy": {
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-25"
@@ -5320,6 +5368,10 @@
  "argoproj/argo-cd": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-22"
+ },
+ "argoproj/argo-workflows": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
  },
  "argotorg/solidity": {
   "first_seen": "2026-10-27",
@@ -6015,7 +6067,7 @@
  },
  "changexbc/workbuddy-switch": {
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-28"
  },
  "charlie754/Game-Optimizer-CPUs-Threads-Optimizer": {
   "cats": [
@@ -6196,6 +6248,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
+ "cocoindex-io/cocoindex": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "codelibs/fess": {
   "cats": [
    "scrape"
@@ -6233,6 +6289,10 @@
  },
  "colinhacks/reylo": {
   "first_seen": "2026-10-22",
+  "last_seen": "2026-10-28"
+ },
+ "colmap/colmap": {
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-28"
  },
  "commaai/openpilot": {
@@ -6333,7 +6393,7 @@
  },
  "crimera/piko": {
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "crmne/spotifast": {
   "first_seen": "2026-10-27",
@@ -6403,7 +6463,7 @@
  },
  "dagger/dagger": {
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-28"
  },
  "dagoSte/squadra": {
   "first_seen": "2026-10-26",
@@ -6533,6 +6593,10 @@
    "audio"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-28"
+ },
+ "decolua/9router": {
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-28"
  },
  "deepfounder-ai/desigma": {
@@ -7095,6 +7159,10 @@
   "first_seen": "2026-10-23",
   "last_seen": "2026-10-24"
  },
+ "expo/skills": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "extend-hq/jevbox": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
@@ -7119,6 +7187,10 @@
    "social"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-28"
+ },
+ "facebook/rocksdb": {
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-28"
  },
  "facebookincubator/muse-gadget-sdk": {
@@ -7345,7 +7417,7 @@
  },
  "fleetdm/fleet": {
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-28"
  },
  "flo-at/minmon": {
   "cats": [
@@ -7629,6 +7701,10 @@
   "first_seen": "2026-10-27",
   "last_seen": "2026-10-28"
  },
+ "github/copilot-sdk": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "github/docs": {
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-28"
@@ -7639,7 +7715,7 @@
  },
  "github/gh-stack": {
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-28"
  },
  "github/github-mcp-server": {
   "first_seen": "2026-10-20",
@@ -7647,7 +7723,7 @@
  },
  "github/spec-kit": {
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-28"
  },
  "gitleaks/gitleaks": {
   "first_seen": "2026-10-20",
@@ -7787,7 +7863,7 @@
  },
  "google/googletest": {
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-28"
  },
  "google/guava": {
   "first_seen": "2026-10-27",
@@ -7799,7 +7875,7 @@
  },
  "google/perfetto": {
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-28"
  },
  "googleworkspace/cli": {
   "cats": [
@@ -7849,7 +7925,7 @@
  },
  "gtsteffaniak/filebrowser": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-28"
  },
  "guaardvark/guaardvark": {
   "cats": [
@@ -8600,6 +8676,10 @@
   "first_seen": "2026-10-27",
   "last_seen": "2026-10-28"
  },
+ "jakubkrehel/skills": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "jamiepine/voicebox": {
   "cats": [
    "audio"
@@ -9078,7 +9158,7 @@
  },
  "keploy/keploy": {
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "kestra-io/kestra": {
   "cats": [
@@ -9092,6 +9172,10 @@
    "automation"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-28"
+ },
+ "keycloak/keycloak": {
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-28"
  },
  "keystonejs/keystone": {
@@ -9227,6 +9311,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
+ "kubernetes-sigs/agent-sandbox": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "kubernetes/kubernetes": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
@@ -9263,7 +9351,7 @@
  },
  "kvcache-ai/Mooncake": {
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-28"
  },
  "kydlikebtc/awesome-jev": {
   "first_seen": "2026-10-20",
@@ -9478,7 +9566,7 @@
  },
  "lionsoul2014/ip2region": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-28"
  },
  "liseami/CCBaga": {
   "first_seen": "2026-10-20",
@@ -10265,6 +10353,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-21"
  },
+ "mozilla-firefox/firefox": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "mpaepper/vibevoice": {
   "cats": [
    "audio"
@@ -10351,6 +10443,10 @@
  "mutablelogic/go-whisper": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
+ },
+ "mvanhorn/cli-printing-press": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
  },
  "mvanhorn/last30days-skill": {
   "cats": [
@@ -10847,7 +10943,7 @@
  },
  "oauth2-proxy/oauth2-proxy": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-28"
  },
  "obra/superpowers": {
   "first_seen": "2026-10-27",
@@ -10855,6 +10951,10 @@
  },
  "obsidianmd/pele": {
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-28"
+ },
+ "oceanbase/seekdb": {
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-28"
  },
  "ocrmypdf/OCRmyPDF": {
@@ -11023,7 +11123,7 @@
  },
  "openai/codex": {
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-28"
  },
  "openai/math": {
   "first_seen": "2026-10-20",
@@ -11220,6 +11320,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
+ "p-e-w/heretic": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "pablostanley/yoinks": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
@@ -11387,6 +11491,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
+ "plandex-ai/plandex": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "plasmicapp/plasmic": {
   "cats": [
    "seo"
@@ -11517,7 +11625,7 @@
  },
  "projectdiscovery/nuclei-templates": {
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-28"
  },
  "prometheus/prometheus": {
   "first_seen": "2026-10-20",
@@ -11543,7 +11651,7 @@
  },
  "protocolbuffers/protobuf": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-28"
  },
  "psiberx/cp2077-archive-xl": {
   "first_seen": "2026-10-25",
@@ -11628,13 +11736,17 @@
  },
  "qist/tvbox": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-28"
  },
  "qiutongxue/oba-live-tool": {
   "cats": [
    "social"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-28"
+ },
+ "quarkusio/quarkus": {
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-28"
  },
  "quchen/generative-art": {
@@ -12297,6 +12409,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
+ "shitagaki-lab/see-through": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "shivamanupadi/traks": {
   "cats": [
    "seo"
@@ -12310,7 +12426,7 @@
  },
  "shmykelsa/AAAD": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-28"
  },
  "shopware/shopware": {
   "cats": [
@@ -12822,7 +12938,7 @@
  },
  "superplanehq/superplane": {
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-28"
  },
  "superxslam/SuperMap": {
   "cats": [
@@ -12895,7 +13011,7 @@
  },
  "tailscale/tailscale": {
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-28"
  },
  "talivia-group/talivia": {
   "cats": [
@@ -13207,7 +13323,7 @@
  },
  "traccar/traccar": {
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-28"
  },
  "tradesdontlie/tradingview-mcp": {
   "cats": [
@@ -13285,6 +13401,10 @@
  },
  "tt-a1i/archify": {
   "first_seen": "2026-10-21",
+  "last_seen": "2026-10-28"
+ },
+ "tulir/whatsmeow": {
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-28"
  },
  "tursodatabase/turso": {
@@ -13721,6 +13841,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
+ "wazuh/wazuh": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "weaiw/trove-ai": {
   "cats": [
    "knowledge"
@@ -13909,6 +14033,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
+ "wolfpld/tracy": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "woocommerce/woocommerce": {
   "cats": [
    "ecommerce"
@@ -14020,6 +14148,10 @@
    "knowledge"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-10-28"
+ },
+ "xiaolai/the-craft-of-selfteaching": {
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-28"
  },
  "xiaomi-mlab/MindDrive": {
@@ -14324,7 +14456,7 @@
  },
  "yuliskov/SmartTube": {
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "yunanwg/brilliant-CV": {
   "cats": [
@@ -14412,6 +14544,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
+ "zed-industries/zed": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "zeenie-ai/OpenCompany": {
   "cats": [
    "automation"
@@ -14429,7 +14565,7 @@
  },
  "zen-browser/desktop": {
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-28"
  },
  "zengweishuai/ScaleBFM": {
   "cats": [
@@ -14451,7 +14587,7 @@
  },
  "zerx-lab/FluxDown": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "zeus-12/uxie": {
   "cats": [
