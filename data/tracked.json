@@ -622,6 +622,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
+ "BaaRai/ARTEX": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "Bananefre/Stock-Market-app": {
   "cats": [
    "ecommerce"
@@ -2165,7 +2169,7 @@
  },
  "Leonxlnx/taste-skill": {
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-28"
  },
  "Li-Zn-H/AwesomeWorldModels": {
   "cats": [
@@ -7189,10 +7193,6 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
- "facebook/rocksdb": {
-  "first_seen": "2026-10-28",
-  "last_seen": "2026-10-28"
- },
  "facebookincubator/muse-gadget-sdk": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
@@ -10021,6 +10021,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
+ "meta/rocksdb": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
  "metarhia/Example": {
   "cats": [
    "social"
@@ -10635,6 +10639,10 @@
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-28"
  },
+ "net-merge/net-merge": {
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-28"
+ },
  "netaart/comfyui-browser": {
   "cats": [
    "image"
@@ -11041,7 +11049,7 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
- "oosexgang/hackios-xnu-kernel": {
+ "oosexgang/hakios-xnu-kernel": {
   "first_seen": "2026-10-23",
   "last_seen": "2026-10-28"
  },
@@ -12018,10 +12026,6 @@
   "cats": [
    "embodied"
   ],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-28"
- },
- "rohit267/net-merge": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
@@ -13120,10 +13124,6 @@
  "termux/termux-app": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
- },
- "terrafying/ai-torture-chamber": {
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-23"
  },
  "tesseract-ocr/tesseract": {
   "cats": [
