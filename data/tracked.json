@@ -6938,6 +6938,10 @@
   "first_seen": "2026-10-21",
   "last_seen": "2026-10-29"
  },
+ "deepseek-ai/dsh-superagent-prototype": {
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31"
+ },
  "defold/defold": {
   "first_seen": "2026-10-29",
   "last_seen": "2026-10-30"
@@ -8456,6 +8460,10 @@
  "hashicorp/vault": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-22"
+ },
+ "haydenschmitty/floorplan": {
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31"
  },
  "he-yufeng/FindJobs-Agent": {
   "cats": [
@@ -10782,7 +10790,7 @@
  },
  "mnfst/awesome-free-llm-apis": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "mobile-next/mobile-mcp": {
   "first_seen": "2026-10-20",
@@ -11820,6 +11828,10 @@
    "seo"
   ],
   "first_seen": "2026-10-22",
+  "last_seen": "2026-10-31"
+ },
+ "opentrap/opentrap": {
+  "first_seen": "2026-10-31",
   "last_seen": "2026-10-31"
  },
  "openvinotoolkit/openvino": {
