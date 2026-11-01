@@ -18,6 +18,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-01"
  },
+ "0xJacky/nginx-ui": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "0xProbabillity/house-control": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-01"
@@ -62,6 +66,10 @@
    "image"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-01"
+ },
+ "1jehuang/jcode": {
+  "first_seen": "2026-11-01",
   "last_seen": "2026-11-01"
  },
  "22kk12/mengwei-local-leads-workbench": {
@@ -1351,6 +1359,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-01"
  },
+ "FlashML-org/FreeToken": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "FluidInference/FluidAudio": {
   "cats": [
    "audio"
@@ -1369,6 +1381,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-31"
  },
+ "FongMi/TV": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "FortAwesome/Font-Awesome": {
   "first_seen": "2026-10-27",
   "last_seen": "2026-10-28"
@@ -1382,6 +1398,10 @@
    "automation"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-01"
+ },
+ "Fractal-Compute-Orchestrations/.github": {
+  "first_seen": "2026-11-01",
   "last_seen": "2026-11-01"
  },
  "Francis1998/agentic-career-search": {
@@ -2192,6 +2212,10 @@
   "first_seen": "2026-10-27",
   "last_seen": "2026-11-01"
  },
+ "LSPosed/LSPatch": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "LSPosed/LSPosed": {
   "first_seen": "2026-10-26",
   "last_seen": "2026-11-01"
@@ -2276,6 +2300,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-01"
  },
+ "LibreChat-AI/LibreChat": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "LibreSpark/LibreTV": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-01"
@@ -2327,7 +2355,7 @@
  },
  "LizardByte/Sunshine": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-11-01"
  },
  "LocoreMind/locoagent": {
   "cats": [
@@ -2385,13 +2413,17 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-23"
  },
+ "M-Abozaid/esp32-c3-adblock": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "MCRcortex/voxy": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-29"
  },
  "MHSanaei/3x-ui": {
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-11-01"
  },
  "MINT-SJTU/Evo-1": {
   "cats": [
@@ -2530,7 +2562,7 @@
  },
  "MewX/light-novel-library_Wenku8_Android": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-11-01"
  },
  "MichaelGrupp/evo": {
   "cats": [
@@ -2837,6 +2869,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-01"
  },
+ "NiazMorshed2007/reanimate": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "Nicovic17/vanish_webcam": {
   "first_seen": "2026-10-29",
   "last_seen": "2026-11-01"
@@ -2866,6 +2902,10 @@
    "scrape"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-01"
+ },
+ "NotHarshhaa/DevOps-Projects": {
+  "first_seen": "2026-11-01",
   "last_seen": "2026-11-01"
  },
  "NotProtonNot/NotProton": {
@@ -3233,6 +3273,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-25"
  },
+ "PenglongHuang/chinese-novelist-skill": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "PetoiCamp/OpenCat-Quadruped-Robot": {
   "cats": [
    "embodied"
@@ -3498,6 +3542,10 @@
    "embodied"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-01"
+ },
+ "RikkaApps/Shizuku-API": {
+  "first_seen": "2026-11-01",
   "last_seen": "2026-11-01"
  },
  "Rizzo-AI-Academy/rizzo-flow": {
@@ -3820,6 +3868,10 @@
  "Significant-Gravitas/AutoGPT": {
   "first_seen": "2026-10-26",
   "last_seen": "2026-10-27"
+ },
+ "SimoHypers/limusic": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
  },
  "SimpleJev/JevAny": {
   "cats": [
@@ -4250,6 +4302,10 @@
   "first_seen": "2026-10-26",
   "last_seen": "2026-11-01"
  },
+ "TheNetsky/Microsoft-Rewards-Script": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "TheRobotStudio/HOPEJr": {
   "cats": [
    "embodied"
@@ -4303,6 +4359,10 @@
  },
  "TonF1917/claude-desktop-multiple-windows-different-api": {
   "first_seen": "2026-10-24",
+  "last_seen": "2026-11-01"
+ },
+ "TranslucentTB/TranslucentTB": {
+  "first_seen": "2026-11-01",
   "last_seen": "2026-11-01"
  },
  "TransparentLC/realesrgan-gui": {
@@ -4366,6 +4426,10 @@
  "Valen-Team/Valen": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-22"
+ },
+ "ValveSoftware/source-sdk-2013": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
  },
  "Vanszs/qwencloud-generator": {
   "cats": [
@@ -4530,9 +4594,13 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-01"
  },
+ "XIU2/CloudflareSpeedTest": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "XTLS/Xray-core": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-01"
  },
  "Xbotics-Embodied-AI-club/Xbotics-Embodied-AI-Job": {
   "cats": [
@@ -5294,6 +5362,10 @@
   "first_seen": "2026-10-28",
   "last_seen": "2026-10-29"
  },
+ "andreavolpato/spektrafilm": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "andremichelle/openDAW": {
   "cats": [
    "audio"
@@ -5375,7 +5447,7 @@
  },
  "anthropics/claude-code": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-11-01"
  },
  "anthropics/claude-code-action": {
   "first_seen": "2026-10-20",
@@ -5566,7 +5638,7 @@
  },
  "appdevforall/CodeOnTheGo": {
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-01"
  },
  "appeeky/aso-skills": {
   "cats": [
@@ -5929,7 +6001,7 @@
  },
  "beenuar/AiSOC": {
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-11-01"
  },
  "beihaili/Get-Started-with-Web3": {
   "cats": [
@@ -6015,7 +6087,11 @@
  },
  "blader/humanizer": {
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
+ },
+ "bleachbit/bleachbit": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
  },
  "blendi-remade/agentcraft": {
   "first_seen": "2026-10-20",
@@ -6250,6 +6326,10 @@
  },
  "c22dev/mush8": {
   "first_seen": "2026-10-22",
+  "last_seen": "2026-11-01"
+ },
+ "cabaletta/baritone": {
+  "first_seen": "2026-11-01",
   "last_seen": "2026-11-01"
  },
  "cablate/mcp-google-map": {
@@ -7220,7 +7300,7 @@
  },
  "dyang886/Game-Cheats-Manager": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "dyweb/awesome-resume-for-chinese": {
   "cats": [
@@ -7380,6 +7460,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-01"
  },
+ "elvarofficial/teardown": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "emanuele-f/PCAPdroid": {
   "first_seen": "2026-10-31",
   "last_seen": "2026-11-01"
@@ -7418,6 +7502,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-01"
  },
+ "eneskirca/nodeterm": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "enesozturk/dimensional-drawing": {
   "first_seen": "2026-10-26",
   "last_seen": "2026-11-01"
@@ -7437,6 +7525,10 @@
   "first_seen": "2026-10-22",
   "last_seen": "2026-11-01"
  },
+ "eriklindernoren/ML-From-Scratch": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "erweixin/langshift.dev": {
   "cats": [
    "knowledge"
@@ -7453,7 +7545,7 @@
  },
  "esphome/esphome": {
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-11-01"
  },
  "estebanstifli/LocalText2Voice": {
   "cats": [
@@ -7536,7 +7628,7 @@
  },
  "fabio-rovai/open-ontologies": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-01"
  },
  "fabriziosalmi/UglyFeed": {
   "cats": [
@@ -7797,6 +7889,10 @@
   "first_seen": "2026-10-24",
   "last_seen": "2026-11-01"
  },
+ "florinp93/hells-gate-recomp": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "flowable/flowable-engine": {
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-25"
@@ -8039,6 +8135,10 @@
   "first_seen": "2026-10-21",
   "last_seen": "2026-11-01"
  },
+ "ghostty-org/ghostty": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "gin-gonic/gin": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
@@ -8141,7 +8241,7 @@
  },
  "gohugoio/hugo": {
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-01"
  },
  "gohyojun15/VIST3A": {
   "cats": [
@@ -8177,6 +8277,10 @@
    "audio"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-01"
+ },
+ "google-ai-edge/LiteRT-LM": {
+  "first_seen": "2026-11-01",
   "last_seen": "2026-11-01"
  },
  "google-deepmind/mujoco": {
@@ -8290,6 +8394,10 @@
   "first_seen": "2026-10-27",
   "last_seen": "2026-10-28"
  },
+ "greensock/GSAP": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "grpc/grpc": {
   "first_seen": "2026-10-23",
   "last_seen": "2026-10-30"
@@ -8317,6 +8425,14 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-01"
  },
+ "guillaumeblanc/ozz-animation": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "guillaumemeyer/watermarks-remover": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "gunthercox/ChatterBot": {
   "cats": [
    "knowledge"
@@ -8333,7 +8449,7 @@
  },
  "guohuiyuan/go-music-dl": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-01"
  },
  "gz-yami/mall4j": {
   "cats": [
@@ -8468,7 +8584,7 @@
  },
  "hashicorp/terraform": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-01"
  },
  "hashicorp/vagrant": {
   "cats": [
@@ -8647,6 +8763,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-01"
  },
+ "huaxialucaicaizi/ai-startup-skills": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "huggingface/cadgenbench": {
   "cats": [
    "art"
@@ -8819,7 +8939,7 @@
  },
  "ifixai-ai/iFixAi": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-11-01"
  },
  "iflytek/skillhub": {
   "first_seen": "2026-10-21",
@@ -9235,7 +9355,7 @@
  },
  "jenkinsci/jenkins": {
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "jesseduffield/lazygit": {
   "first_seen": "2026-10-29",
@@ -9430,7 +9550,7 @@
  },
  "juliangarnier/anime": {
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-11-01"
  },
  "juliobsz/skills": {
   "first_seen": "2026-10-20",
@@ -9805,7 +9925,7 @@
  },
  "kunal-kushwaha/DSA-Bootcamp-Java": {
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-01"
  },
  "kunchenguid/no-mistakes": {
   "first_seen": "2026-10-25",
@@ -9890,7 +10010,7 @@
  },
  "laoma528/awesome-zhuiju-free": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-11-01"
  },
  "laoshan-song/Awesome-LLM-Interview": {
   "cats": [
@@ -9953,7 +10073,7 @@
  },
  "leepokai/Codync": {
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-01"
  },
  "leggedrobotics/robotic_world_model": {
   "cats": [
@@ -10015,7 +10135,7 @@
  },
  "lfnovo/open-notebook": {
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "lharries/whatsapp-mcp": {
   "first_seen": "2026-10-21",
@@ -10466,7 +10586,11 @@
  },
  "max-sixty/worktrunk": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-11-01"
+ },
+ "mayswind/ezbookkeeping": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
  },
  "mcnaveen/SupaComments": {
   "cats": [
@@ -10565,7 +10689,7 @@
  },
  "mesamirh/MovieBox-Tui": {
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-11-01"
  },
  "meshy-dev/meshy-3d-agent": {
   "cats": [
@@ -10634,7 +10758,7 @@
  },
  "microg/GmsCore": {
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-11-01"
  },
  "microsoft/BitNet": {
   "first_seen": "2026-10-20",
@@ -10925,6 +11049,10 @@
  "mostlygeek/llama-swap": {
   "first_seen": "2026-10-25",
   "last_seen": "2026-10-26"
+ },
+ "motiondivision/motion": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
  },
  "mozilla-ai/llamafile": {
   "first_seen": "2026-10-20",
@@ -11402,6 +11530,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-01"
  },
+ "noctalia-dev/umbriel": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "nodebox/nodebox": {
   "cats": [
    "art"
@@ -11839,7 +11971,7 @@
  },
  "openjdk/jdk": {
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "openmrs/openmrs-core": {
   "first_seen": "2026-10-30",
@@ -11921,6 +12053,10 @@
  },
  "optiscaler/OptiScaler": {
   "first_seen": "2026-10-22",
+  "last_seen": "2026-11-01"
+ },
+ "oraios/serena": {
+  "first_seen": "2026-11-01",
   "last_seen": "2026-11-01"
  },
  "oscar-soirey/Raven": {
@@ -12204,7 +12340,7 @@
  },
  "plugin87/ux-ui-agent-skills": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "pnnbao97/VieNeu-TTS": {
   "cats": [
@@ -12239,6 +12375,10 @@
    "office"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-01"
+ },
+ "poteto/hiring-without-whiteboards": {
+  "first_seen": "2026-11-01",
   "last_seen": "2026-11-01"
  },
  "praveshagrawal/Website-2-APK-Builder": {
@@ -12336,6 +12476,10 @@
   "first_seen": "2026-10-25",
   "last_seen": "2026-10-26"
  },
+ "public-apis/public-apis": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "pugson/telegram-twitter-url-expand-bot": {
   "cats": [
    "social"
@@ -12390,6 +12534,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-01"
  },
+ "python/cpython": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "pytorch/pytorch": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-25"
@@ -12400,7 +12548,7 @@
  },
  "qbittorrent/qBittorrent": {
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-11-01"
  },
  "qgis/QGIS": {
   "first_seen": "2026-10-20",
@@ -12494,6 +12642,10 @@
    "art"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-01"
+ },
+ "rasonyang/ai-native-callcenter": {
+  "first_seen": "2026-11-01",
   "last_seen": "2026-11-01"
  },
  "rauchg/gdp-ts": {
@@ -12893,7 +13045,7 @@
  },
  "samwhosung/benilla": {
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-11-01"
  },
  "sandrohanea/whisper.net": {
   "cats": [
@@ -12929,6 +13081,10 @@
    "video"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-01"
+ },
+ "scenario-labs/skills": {
+  "first_seen": "2026-11-01",
   "last_seen": "2026-11-01"
  },
  "sceneview/sceneview": {
@@ -13133,7 +13289,7 @@
  },
  "shiyu-coder/Kronos": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-11-01"
  },
  "shmykelsa/AAAD": {
   "first_seen": "2026-10-20",
@@ -13193,6 +13349,10 @@
  "sickn33/agentic-awesome-skills": {
   "first_seen": "2026-10-21",
   "last_seen": "2026-10-21"
+ },
+ "siddharthvaddem/openscreen": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
  },
  "siddsachar/row-bot": {
   "cats": [
@@ -13868,6 +14028,10 @@
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-28"
  },
+ "termux/termux-api": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "termux/termux-app": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-01"
@@ -13877,6 +14041,10 @@
    "office"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-01"
+ },
+ "tester-army/e2e": {
+  "first_seen": "2026-11-01",
   "last_seen": "2026-11-01"
  },
  "tetherto/qvac": {
@@ -14062,7 +14230,7 @@
  },
  "togg53192-cmd/jailbreaks": {
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "tokio-rs/topcoat": {
   "first_seen": "2026-10-25",
@@ -14408,6 +14576,10 @@
    "scrape"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-01"
+ },
+ "vercel-labs/agent-desktop": {
+  "first_seen": "2026-11-01",
   "last_seen": "2026-11-01"
  },
  "vercel-labs/agent-skills": {
@@ -15271,7 +15443,7 @@
  },
  "yuliskov/SmartTube": {
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-11-01"
  },
  "yunanwg/brilliant-CV": {
   "cats": [
@@ -15365,6 +15537,10 @@
    "embodied"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-01"
+ },
+ "zed-0xff/ZombieBuddy": {
+  "first_seen": "2026-11-01",
   "last_seen": "2026-11-01"
  },
  "zed-industries/zed": {
