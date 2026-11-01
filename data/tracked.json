@@ -10659,6 +10659,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-01"
  },
+ "memvid/memvid": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "mengxi-ream/read-frog": {
   "cats": [
    "knowledge"
@@ -13700,6 +13704,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-01"
  },
+ "storytold/craft-anything": {
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
  "storytold/craft-launcher": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-01"
@@ -14132,6 +14140,10 @@
    "art"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-01"
+ },
+ "thtbee/nectarlink": {
+  "first_seen": "2026-11-01",
   "last_seen": "2026-11-01"
  },
  "thu-ml/Causal-Forcing": {
