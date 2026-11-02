@@ -269,7 +269,7 @@
  },
  "Agent-Field/CodeAF": {
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-01"
+  "last_seen": "2026-11-02"
  },
  "AgentMemoryRepo/agentmemoryrepo": {
   "first_seen": "2026-10-20",
@@ -468,6 +468,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-02"
  },
+ "AndroidCSOfficial/android-code-studio": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
  "AndroidIDEOfficial/AndroidIDE": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-02"
@@ -534,7 +538,7 @@
  },
  "AprilNEA/OpenLogi": {
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-11-02"
  },
  "Araq/malebolgia": {
   "cats": [
@@ -794,6 +798,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-29"
  },
+ "CNCKitchen/ScanRuler": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
  "CVHub520/X-AnyLabeling": {
   "cats": [
    "office"
@@ -822,7 +830,7 @@
  },
  "CarterPerez-dev/Cybersecurity-Projects": {
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-11-02"
  },
  "ChenHsing/Awesome-Video-Diffusion-Models": {
   "cats": [
@@ -986,7 +994,7 @@
  },
  "Crosstalk-Solutions/project-nomad": {
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-01"
+  "last_seen": "2026-11-02"
  },
  "Curated-Awesome-Lists/awesome-ai-music-generation": {
   "cats": [
@@ -1057,7 +1065,7 @@
  },
  "DavidHDev/react-bits": {
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-11-02"
  },
  "DayBreak-u/chineseocr_lite": {
   "cats": [
@@ -1068,7 +1076,7 @@
  },
  "DeanChensj/jiangshan-map": {
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-11-02"
  },
  "Denghaoyuan123/Awesome-RL-VLA": {
   "cats": [
@@ -1187,6 +1195,10 @@
  },
  "DuarteSantos8/openGym": {
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-02"
+ },
+ "Duecki1/CalibRaw": {
+  "first_seen": "2026-11-02",
   "last_seen": "2026-11-02"
  },
  "EL4CTEO/blender-skills": {
@@ -1963,7 +1975,7 @@
  },
  "JetBrains/intellij-community": {
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  },
  "JetBrains/thinkrail": {
   "first_seen": "2026-10-25",
@@ -2042,6 +2054,10 @@
   "first_seen": "2026-10-25",
   "last_seen": "2026-11-02"
  },
+ "JustVugg/colibri": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
  "JustinBeckwith/linkinator": {
   "cats": [
    "seo"
@@ -2104,6 +2120,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-02"
  },
+ "Keeperorowner/NagramXF": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
  "KennethJAllen/proper-pixel-art": {
   "cats": [
    "art"
@@ -2120,7 +2140,7 @@
  },
  "KeygraphHQ/shannon": {
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-02"
  },
  "KillaBoi/StealMyBitcoin-PoC": {
   "first_seen": "2026-10-26",
@@ -2200,7 +2220,7 @@
  },
  "Kruk2/jasna": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-01"
+  "last_seen": "2026-11-02"
  },
  "KyaniteLabs/kinocut": {
   "cats": [
@@ -2352,7 +2372,7 @@
  },
  "LiteLDev/LeviLaunchroid": {
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  },
  "LittleLightLittleFire/REKT": {
   "cats": [
@@ -2463,11 +2483,11 @@
  },
  "MaaAssistantArknights/MaaAssistantArknights": {
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-11-02"
  },
  "Mag1cFall/AIStudio2API": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-01"
+  "last_seen": "2026-11-02"
  },
  "Mahmud0808/ResumeAI": {
   "cats": [
@@ -2541,7 +2561,7 @@
  },
  "MemPalace/mempalace": {
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-01"
+  "last_seen": "2026-11-02"
  },
  "MengTo/kage": {
   "cats": [
@@ -2834,7 +2854,7 @@
  },
  "NanmiCoder/MediaCrawler": {
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  },
  "NapNeko/NapCatQQ": {
   "first_seen": "2026-10-23",
@@ -3327,6 +3347,10 @@
   "first_seen": "2026-10-22",
   "last_seen": "2026-11-02"
  },
+ "PixarAnimationStudios/OpenUSD": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
  "PointAntStorm/grok-self": {
   "first_seen": "2026-10-23",
   "last_seen": "2026-10-24"
@@ -3531,6 +3555,10 @@
    "seo"
   ],
   "first_seen": "2026-10-22",
+  "last_seen": "2026-11-02"
+ },
+ "ReChronoRain/HyperCeiler": {
+  "first_seen": "2026-11-02",
   "last_seen": "2026-11-02"
  },
  "ReScienceLab/opc-skills": {
@@ -4419,6 +4447,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-02"
  },
+ "UE4SS-RE/RE-UE4SS": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
  "UditAkhourii/adhd": {
   "cats": [
    "art"
@@ -4491,6 +4523,10 @@
    "video"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-02"
+ },
+ "Verlintas/NOIR": {
+  "first_seen": "2026-11-02",
   "last_seen": "2026-11-02"
  },
  "VictorTaelin/uniichat": {
@@ -4993,6 +5029,10 @@
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-27"
  },
+ "adityatandon15/Low-Level-Design-Course": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
  "adobe/skills": {
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-23"
@@ -5057,7 +5097,7 @@
  },
  "agentscope-ai/agentscope-java": {
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-02"
  },
  "agentskills/agentskills": {
   "first_seen": "2026-10-24",
@@ -5366,7 +5406,7 @@
  },
  "amnezia-vpn/amnezia-client": {
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-02"
  },
  "amontlabs/lcu": {
   "first_seen": "2026-10-20",
@@ -5598,7 +5638,7 @@
  },
  "apache/iceberg": {
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-02"
  },
  "apache/iggy": {
   "first_seen": "2026-10-22",
@@ -5733,6 +5773,10 @@
  "argotorg/solidity": {
   "first_seen": "2026-10-27",
   "last_seen": "2026-10-28"
+ },
+ "aria2/aria2": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
  },
  "arnoldhao/xiadown": {
   "cats": [
@@ -6075,6 +6119,10 @@
  "bendlang/bend": {
   "first_seen": "2026-10-24",
   "last_seen": "2026-10-25"
+ },
+ "benjitaylor/skills": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
  },
  "best-of-ai/awesome-ai-seo": {
   "cats": [
@@ -6509,6 +6557,10 @@
    "video"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-02"
+ },
+ "cheaper-inference/OmniRoute": {
+  "first_seen": "2026-11-02",
   "last_seen": "2026-11-02"
  },
  "checkstyle/checkstyle": {
@@ -7032,6 +7084,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-30"
  },
+ "debezium/debezium": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
  "debpalash/VoiceStudio": {
   "cats": [
    "audio"
@@ -7099,6 +7155,10 @@
  },
  "denoland/deno": {
   "first_seen": "2026-10-30",
+  "last_seen": "2026-11-02"
+ },
+ "derv82/wifit3": {
+  "first_seen": "2026-11-02",
   "last_seen": "2026-11-02"
  },
  "designfuchen/word-atlas": {
@@ -7238,6 +7298,10 @@
    "office"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-02"
+ },
+ "doitsujin/dxvk": {
+  "first_seen": "2026-11-02",
   "last_seen": "2026-11-02"
  },
  "dominikmartn/harp": {
@@ -7424,6 +7488,10 @@
    "image"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-02"
+ },
+ "egoist/kero": {
+  "first_seen": "2026-11-02",
   "last_seen": "2026-11-02"
  },
  "egoist/mygo": {
@@ -7620,7 +7688,7 @@
  },
  "evcc-io/evcc": {
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-11-02"
  },
  "ever-co/ever-gauzy": {
   "first_seen": "2026-10-25",
@@ -7915,6 +7983,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-02"
  },
+ "fleetbase/fleetbase": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
  "fleetdm/fleet": {
   "first_seen": "2026-10-23",
   "last_seen": "2026-10-31"
@@ -8083,7 +8155,7 @@
  },
  "gastownhall/beads": {
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-02"
  },
  "gbionics/bipedal-locomotion-framework": {
   "cats": [
@@ -8211,7 +8283,7 @@
  },
  "github/awesome-copilot": {
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-02"
  },
  "github/copilot-sdk": {
   "first_seen": "2026-10-28",
@@ -8247,7 +8319,7 @@
  },
  "glanceapp/glance": {
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-02"
  },
  "glanderness/BeefTV": {
   "first_seen": "2026-10-20",
@@ -8452,7 +8524,7 @@
  },
  "gtsteffaniak/filebrowser": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-02"
  },
  "guaardvark/guaardvark": {
   "cats": [
@@ -8725,6 +8797,10 @@
  "hi3d-official/Hi3Dv1.0": {
   "first_seen": "2026-11-01",
   "last_seen": "2026-11-01"
+ },
+ "hieunc229/mailflare": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
  },
  "higgsfield-ai/skills": {
   "first_seen": "2026-10-26",
@@ -9384,7 +9460,7 @@
  },
  "jean-voila/FeurStagram": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-11-02"
  },
  "jeecgboot/JeecgBoot": {
   "cats": [
@@ -9399,6 +9475,10 @@
    "social"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-02"
+ },
+ "jellyfin/jellyfin-desktop": {
+  "first_seen": "2026-11-02",
   "last_seen": "2026-11-02"
  },
  "jenkinsci/jenkins": {
@@ -9555,6 +9635,10 @@
    "social"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-02"
+ },
+ "jryang1997/MenuBarMijia": {
+  "first_seen": "2026-11-02",
   "last_seen": "2026-11-02"
  },
  "jstockwin/py-pdf-parser": {
@@ -9730,6 +9814,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-02"
  },
+ "karpathy/nanochat": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
  "karust/openserp": {
   "cats": [
    "seo"
@@ -9794,7 +9882,7 @@
  },
  "keploy/keploy": {
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-01"
+  "last_seen": "2026-11-02"
  },
  "kestra-io/kestra": {
   "cats": [
@@ -9826,6 +9914,10 @@
    "seo"
   ],
   "first_seen": "2026-10-22",
+  "last_seen": "2026-11-02"
+ },
+ "kgoedecke/doop": {
+  "first_seen": "2026-11-02",
   "last_seen": "2026-11-02"
  },
  "khoj-ai/khoj": {
@@ -9887,7 +9979,7 @@
  },
  "koala73/worldmonitor": {
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-11-02"
  },
  "koenderks/aRtsy": {
   "cats": [
@@ -10428,6 +10520,10 @@
   "first_seen": "2026-10-26",
   "last_seen": "2026-11-02"
  },
+ "m5stack/StackChan": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
  "maboloshi/github-chinese": {
   "first_seen": "2026-10-25",
   "last_seen": "2026-10-26"
@@ -10640,7 +10736,7 @@
  },
  "mattpocock/skills": {
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-01"
+  "last_seen": "2026-11-02"
  },
  "max-sixty/worktrunk": {
   "first_seen": "2026-10-20",
@@ -10667,6 +10763,10 @@
  "mdpsec/bug-bounty-hunting-prompts": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-29"
+ },
+ "mealie-recipes/mealie": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
  },
  "medama-io/medama": {
   "cats": [
@@ -10886,7 +10986,7 @@
  },
  "microsoft/onnxruntime": {
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-01"
+  "last_seen": "2026-11-02"
  },
  "microsoft/playwright": {
   "cats": [
@@ -11024,13 +11124,17 @@
  },
  "ml-explore/mlx": {
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-11-02"
  },
  "mldangelo/personal-site": {
   "cats": [
    "job"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-02"
+ },
+ "mlmvpn/mlmvpn_android": {
+  "first_seen": "2026-11-02",
   "last_seen": "2026-11-02"
  },
  "mlutcss/mlut": {
@@ -11054,7 +11158,7 @@
  },
  "moby/moby": {
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-11-02"
  },
  "mode-io/vllm-jev": {
   "first_seen": "2026-10-20",
@@ -11117,7 +11221,7 @@
  },
  "morluto/rea": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-11-02"
  },
  "mostlygeek/llama-swap": {
   "first_seen": "2026-10-25",
@@ -11466,6 +11570,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-02"
  },
+ "neuregex/freefield": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
  "nevertoday/xiaoxiaodong-vps": {
   "first_seen": "2026-10-22",
   "last_seen": "2026-11-02"
@@ -11620,7 +11728,7 @@
  },
  "nodejs/node": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-02"
  },
  "noitom-robotics/AdaPT": {
   "cats": [
@@ -12149,7 +12257,7 @@
  },
  "ossrs/srs": {
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-11-02"
  },
  "outcrawlai/scout": {
   "first_seen": "2026-10-20",
@@ -12187,7 +12295,7 @@
  },
  "p-e-w/heretic": {
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-02"
  },
  "pablostanley/yoinks": {
   "first_seen": "2026-10-20",
@@ -12430,6 +12538,10 @@
   "first_seen": "2026-10-22",
   "last_seen": "2026-10-23"
  },
+ "pocket-id/pocket-id": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
  "pollen-robotics/microduck": {
   "first_seen": "2026-10-23",
   "last_seen": "2026-11-02"
@@ -12547,7 +12659,7 @@
  },
  "protocolbuffers/protobuf": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-02"
  },
  "psiberx/cp2077-archive-xl": {
   "first_seen": "2026-10-25",
@@ -12742,7 +12854,7 @@
  },
  "rclone/rclone": {
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-02"
  },
  "rddmwmddr/android-ad-cleaner": {
   "first_seen": "2026-10-25",
@@ -12967,7 +13079,7 @@
  },
  "rorkai/App-Store-Connect-CLI": {
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-11-02"
  },
  "ros-navigation/navigation2": {
   "cats": [
@@ -13065,6 +13177,10 @@
    "job"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-02"
+ },
+ "sahenjp/RustXNG": {
+  "first_seen": "2026-11-02",
   "last_seen": "2026-11-02"
  },
  "said7388/developer-portfolio": {
@@ -13649,6 +13765,10 @@
   "first_seen": "2026-10-23",
   "last_seen": "2026-10-26"
  },
+ "spotify/portal-ai-plugins": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
  "spree/spree": {
   "cats": [
    "ecommerce"
@@ -13882,6 +14002,10 @@
   "first_seen": "2026-10-22",
   "last_seen": "2026-11-02"
  },
+ "sundowndev/phoneinfoga": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
  "sunriseapps/imagesorcery-mcp": {
   "cats": [
    "image"
@@ -13895,7 +14019,7 @@
  },
  "superdesigndev/treg": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-01"
+  "last_seen": "2026-11-02"
  },
  "superjack2050/1688-cli": {
   "cats": [
@@ -14672,6 +14796,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
+ "vercel-labs/scriptc": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
  "vercel-labs/skills": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-02"
@@ -14892,6 +15020,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-02"
  },
+ "warmbly/warmbly": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
  "watercrawl/WaterCrawl": {
   "cats": [
    "scrape"
@@ -14933,7 +15065,7 @@
  },
  "webpack/webpack": {
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-02"
  },
  "website-scraper/node-website-scraper": {
   "cats": [
@@ -15588,6 +15720,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-02"
  },
+ "yzlin286-wq/Deepscient": {
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
  "z3xox/Tenkaichi3Decomp": {
   "first_seen": "2026-10-30",
   "last_seen": "2026-11-02"
@@ -15601,7 +15737,7 @@
  },
  "zaproxy/zaproxy": {
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-11-02"
  },
  "zarazhangrui/frontend-slides": {
   "first_seen": "2026-10-29",
