@@ -11,10 +11,6 @@
   "first_seen": "2026-11-20",
   "last_seen": "2026-11-20"
  },
- "0marContreras/gta6recomp": {
-  "first_seen": "2026-11-20",
-  "last_seen": "2026-11-20"
- },
  "0x0funky/agent-sprite-forge": {
   "first_seen": "2026-10-31",
   "last_seen": "2026-11-15"
@@ -878,10 +874,6 @@
  "BlueHeisenberg/SCSKiller": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
- },
- "Bodila51/gtavi-claudecode": {
-  "first_seen": "2026-11-19",
-  "last_seen": "2026-11-20"
  },
  "BookracyFOS/bookracy": {
   "first_seen": "2026-11-01",
@@ -2775,6 +2767,10 @@
   "first_seen": "2026-11-10",
   "last_seen": "2026-11-20"
  },
+ "Lemxy/WinRust": {
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
  "LeoYeAI/openclaw-marketing-skills": {
   "cats": [
    "seo"
@@ -3422,10 +3418,6 @@
  "NVIDIA/Model-Optimizer": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-06"
- },
- "NVIDIA/OpenShell": {
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-14"
  },
  "NVIDIA/SkillEvaluator": {
   "first_seen": "2026-11-12",
@@ -5651,6 +5643,10 @@
   "first_seen": "2026-11-06",
   "last_seen": "2026-11-20"
  },
+ "XinaTian/MROffice": {
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
  "Xthebuilder/JRVS": {
   "cats": [
    "knowledge"
@@ -6242,6 +6238,10 @@
   ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-20"
+ },
+ "ai-openshell/openshell": {
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-11-14"
  },
  "ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool": {
   "cats": [
@@ -7157,6 +7157,10 @@
   "first_seen": "2026-11-17",
   "last_seen": "2026-11-18"
  },
+ "atuizz/posewear": {
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
  "audacity/audacity": {
   "first_seen": "2026-11-03",
   "last_seen": "2026-11-04"
@@ -7646,10 +7650,6 @@
    "embodied"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-20"
- },
- "bothaggsigym1988/frameglide": {
-  "first_seen": "2026-11-20",
   "last_seen": "2026-11-20"
  },
  "botswin/BotBrowser": {
@@ -10667,6 +10667,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-14"
  },
+ "havenicec/google-qr-sms-helper": {
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
  "haydenschmitty/floorplan": {
   "first_seen": "2026-10-31",
   "last_seen": "2026-11-20"
@@ -12703,7 +12707,7 @@
   "first_seen": "2026-11-20",
   "last_seen": "2026-11-20"
  },
- "liuzhao1225/YouDub-webui": {
+ "liuzhao1225/YouDub-Desktop": {
   "cats": [
    "audio"
   ],
@@ -17000,10 +17004,6 @@
  "sourcepro5/WeChatAgent": {
   "first_seen": "2026-10-21",
   "last_seen": "2026-10-31"
- },
- "sourmitocand1987/VividFrame-GPU": {
-  "first_seen": "2026-11-19",
-  "last_seen": "2026-11-20"
  },
  "southleft/figma-console-mcp": {
   "first_seen": "2026-11-05",
