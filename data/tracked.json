@@ -2273,6 +2273,10 @@
   "first_seen": "2026-11-02",
   "last_seen": "2026-11-08"
  },
+ "ItsNotRexed/Leonida": {
+  "first_seen": "2026-11-21",
+  "last_seen": "2026-11-21"
+ },
  "ItzCrazyKns/Vane": {
   "cats": [
    "knowledge"
@@ -3172,13 +3176,6 @@
  },
  "Mieksido/surfcore": {
   "first_seen": "2026-11-17",
-  "last_seen": "2026-11-21"
- },
- "MikeCasallas/poe2-price-checker": {
-  "cats": [
-   "ecommerce"
-  ],
-  "first_seen": "2026-11-18",
   "last_seen": "2026-11-21"
  },
  "MillionSend/millionsend": {
@@ -4246,6 +4243,10 @@
    "seo"
   ],
   "first_seen": "2026-10-22",
+  "last_seen": "2026-11-21"
+ },
+ "R0Y00/Xbox2Windows": {
+  "first_seen": "2026-11-21",
   "last_seen": "2026-11-21"
  },
  "RLinf/RLark": {
@@ -10691,6 +10692,10 @@
  "hashicorp/vault": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-14"
+ },
+ "hatsunemiku-ai/google-one-tools": {
+  "first_seen": "2026-11-21",
+  "last_seen": "2026-11-21"
  },
  "havenicec/google-qr-sms-helper": {
   "first_seen": "2026-11-20",
