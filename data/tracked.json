@@ -929,6 +929,10 @@
   "first_seen": "2026-11-02",
   "last_seen": "2026-11-10"
  },
+ "CUDADA-jpg/her-words": {
+  "first_seen": "2026-11-22",
+  "last_seen": "2026-11-22"
+ },
  "CVHub520/X-AnyLabeling": {
   "cats": [
    "office"
@@ -1440,6 +1444,10 @@
   "first_seen": "2026-11-02",
   "last_seen": "2026-11-12"
  },
+ "EL4CTEO/fast-anything": {
+  "first_seen": "2026-11-22",
+  "last_seen": "2026-11-22"
+ },
  "ELY-Open-Source/ElyOffice": {
   "first_seen": "2026-10-21",
   "last_seen": "2026-11-17"
@@ -1703,6 +1711,10 @@
    "automation"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-22"
+ },
+ "Forward-Future/scarlet": {
+  "first_seen": "2026-11-22",
   "last_seen": "2026-11-22"
  },
  "Fractal-Compute-Orchestrations/.github": {
@@ -6595,6 +6607,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-24"
  },
+ "amitshekhariitbhu/forward-deployed-engineer-roadmap": {
+  "first_seen": "2026-11-22",
+  "last_seen": "2026-11-22"
+ },
  "ammarahm-ed/react-native-workers": {
   "cats": [
    "social"
@@ -10553,10 +10569,6 @@
   "first_seen": "2026-10-21",
   "last_seen": "2026-11-14"
  },
- "gylive/google-ultra": {
-  "first_seen": "2026-11-19",
-  "last_seen": "2026-11-22"
- },
  "gz-yami/mall4j": {
   "cats": [
    "ecommerce"
@@ -10721,10 +10733,6 @@
  "hashicorp/vault": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-14"
- },
- "hatsunemiku-ai/google-one-tools": {
-  "first_seen": "2026-11-21",
-  "last_seen": "2026-11-22"
  },
  "havenicec/google-qr-sms-helper": {
   "first_seen": "2026-11-20",
@@ -12398,10 +12406,6 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-22"
  },
- "krisgfx9/Wireless-Device-Battery-Monitor": {
-  "first_seen": "2026-11-17",
-  "last_seen": "2026-11-22"
- },
  "kserve/kserve": {
   "first_seen": "2026-10-30",
   "last_seen": "2026-10-31"
@@ -12591,6 +12595,10 @@
  "leag1234/elixiroffice": {
   "first_seen": "2026-11-01",
   "last_seen": "2026-11-09"
+ },
+ "leanprover-community/riemann-hypothesis": {
+  "first_seen": "2026-11-22",
+  "last_seen": "2026-11-22"
  },
  "leaperone/MultiPost-Extension": {
   "cats": [
@@ -13479,7 +13487,7 @@
    "office"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-20"
+  "last_seen": "2026-11-22"
  },
  "mherrmann/helium": {
   "cats": [
@@ -14157,6 +14165,10 @@
    "knowledge"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-22"
+ },
+ "nataphong-lab/Open-Source-Face-Recognition-Ultimate": {
+  "first_seen": "2026-11-22",
   "last_seen": "2026-11-22"
  },
  "nateherkai/herk-edit-kit": {
@@ -15637,13 +15649,6 @@
  "prisma/orm": {
   "first_seen": "2026-10-29",
   "last_seen": "2026-10-30"
- },
- "prismarmorergirder/wallet-security-checker": {
-  "cats": [
-   "ecommerce"
-  ],
-  "first_seen": "2026-11-14",
-  "last_seen": "2026-11-22"
  },
  "processing/p5.js": {
   "cats": [
