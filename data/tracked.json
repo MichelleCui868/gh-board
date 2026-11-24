@@ -761,6 +761,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-24"
  },
+ "Avaneesh-Inamdar/Stream-Tube-Desktop": {
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24"
+ },
  "Awakenchan/LanternEngine": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-09"
@@ -1489,7 +1493,7 @@
  },
  "Ebony-Vinyl/dsh-our-free-model": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-11-24"
  },
  "EbookFoundation/free-programming-books": {
   "first_seen": "2026-11-07",
@@ -1502,6 +1506,10 @@
  "Effect-TS/effect": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-30"
+ },
+ "EfimSafonov/best-sdd-tools": {
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24"
  },
  "Eglantine-Community/Eglantine": {
   "first_seen": "2026-10-31",
@@ -3653,7 +3661,7 @@
  },
  "Niko1221/Strata": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-11-24"
  },
  "NomaDamas/k-skill": {
   "first_seen": "2026-10-30",
@@ -8933,6 +8941,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-24"
  },
+ "deterministic-machines/deslop-please": {
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24"
+ },
  "devaccuracy/ledgerforge": {
   "first_seen": "2026-11-11",
   "last_seen": "2026-11-12"
@@ -10095,6 +10107,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-24"
  },
+ "fxceless/victory-fork": {
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24"
+ },
  "fxgl/steamac": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-02"
@@ -11031,10 +11047,6 @@
   "first_seen": "2026-11-06",
   "last_seen": "2026-11-24"
  },
- "horizon-rust/horizon": {
-  "first_seen": "2026-10-24",
-  "last_seen": "2026-11-01"
- },
  "houtini-ai/seo-audit": {
   "cats": [
    "seo"
@@ -11637,10 +11649,6 @@
    "ecommerce"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-24"
- },
- "ivall/xcl": {
-  "first_seen": "2026-11-23",
   "last_seen": "2026-11-24"
  },
  "ivankovic/omnidiff": {
@@ -12914,7 +12922,7 @@
   "first_seen": "2026-10-22",
   "last_seen": "2026-11-05"
  },
- "limxdynamics-online-robotics/xbot": {
+ "limxdynamics-online-robotics/xbot-limx-dynamics": {
   "cats": [
    "embodied"
   ],
@@ -16058,6 +16066,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-24"
  },
+ "qianyiai/kurocat": {
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24"
+ },
  "qiayue/pvuv.ai": {
   "cats": [
    "seo"
@@ -16683,7 +16695,7 @@
  },
  "samuelgursky/davinci-resolve-mcp": {
   "first_seen": "2026-11-23",
-  "last_seen": "2026-11-23"
+  "last_seen": "2026-11-24"
  },
  "samwhosung/benilla": {
   "first_seen": "2026-10-26",
@@ -17761,6 +17773,10 @@
  },
  "sybil-solutions/inference-optimisation-skill": {
   "first_seen": "2026-11-17",
+  "last_seen": "2026-11-24"
+ },
+ "sybil-solutions/skill-distill": {
+  "first_seen": "2026-11-24",
   "last_seen": "2026-11-24"
  },
  "symfony/asset": {
@@ -19344,6 +19360,10 @@
   "first_seen": "2026-10-26",
   "last_seen": "2026-10-27"
  },
+ "xcl-dev/xcl": {
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-24"
+ },
  "xerj-org/xerj": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-24"
@@ -19398,6 +19418,10 @@
  "xiaoyang111222/cn-math-taxonomy": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-16"
+ },
+ "xikhar/papercraft": {
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24"
  },
  "xingkongliang/skills-manager": {
   "first_seen": "2026-10-20",
