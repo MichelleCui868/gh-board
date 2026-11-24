@@ -177,6 +177,10 @@
   "first_seen": "2026-10-24",
   "last_seen": "2026-10-25"
  },
+ "AFK-surf/xnulinux": {
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
  "AHEKOT/ComfyUI_VNCCS_Utils": {
   "cats": [
    "image"
@@ -1058,13 +1062,6 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-23"
  },
- "Cloudcode04/runway-ml-pro-win": {
-  "cats": [
-   "video"
-  ],
-  "first_seen": "2026-11-23",
-  "last_seen": "2026-11-23"
- },
  "CodeWithCJ/SparkyFitness": {
   "first_seen": "2026-10-31",
   "last_seen": "2026-11-01"
@@ -1616,7 +1613,7 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-23"
  },
- "Fei2411/DS-Bot": {
+ "Fei-Craft/DS-Bot": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-05"
  },
@@ -1703,7 +1700,7 @@
  },
  "FongMi/TV": {
   "first_seen": "2026-11-01",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-23"
  },
  "FortAwesome/Font-Awesome": {
   "first_seen": "2026-10-27",
@@ -1773,13 +1770,6 @@
  "FxEmbed/FxEmbed": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-22"
- },
- "G4rdner26/luminar-neo-win": {
-  "cats": [
-   "image"
-  ],
-  "first_seen": "2026-11-23",
-  "last_seen": "2026-11-23"
  },
  "GTKottman/mortiflix-oss": {
   "first_seen": "2026-10-20",
@@ -2300,8 +2290,8 @@
   "first_seen": "2026-11-02",
   "last_seen": "2026-11-08"
  },
- "ItsNotRexed/Leonida": {
-  "first_seen": "2026-11-21",
+ "ItsNotRexed/Hookshot": {
+  "first_seen": "2026-11-23",
   "last_seen": "2026-11-23"
  },
  "ItzCrazyKns/Vane": {
@@ -2453,13 +2443,6 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-23"
  },
- "JieFedorov81/runway-ml-pro-win": {
-  "cats": [
-   "video"
-  ],
-  "first_seen": "2026-11-23",
-  "last_seen": "2026-11-23"
- },
  "JimLiu/baocut": {
   "cats": [
    "video"
@@ -2472,13 +2455,6 @@
    "seo"
   ],
   "first_seen": "2026-11-22",
-  "last_seen": "2026-11-23"
- },
- "Joanegorov01/capture-one-pro-win": {
-  "cats": [
-   "image"
-  ],
-  "first_seen": "2026-11-23",
   "last_seen": "2026-11-23"
  },
  "JoasASantos/Offensive-Security-AI-Models": {
@@ -2517,13 +2493,6 @@
  },
  "JosssphZhou/poki": {
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-23"
- },
- "Juanlabs1989/descript-pro-win": {
-  "cats": [
-   "video"
-  ],
-  "first_seen": "2026-11-23",
   "last_seen": "2026-11-23"
  },
  "JuliusBrussee/caveman": {
@@ -3150,6 +3119,10 @@
    "video"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-23"
+ },
+ "Marvisak/VIctory": {
+  "first_seen": "2026-11-23",
   "last_seen": "2026-11-23"
  },
  "MaryCache/imozuru": {
@@ -5649,13 +5622,6 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-23"
  },
- "VitalyMukherjee92/lightroom-classic-win": {
-  "cats": [
-   "image"
-  ],
-  "first_seen": "2026-11-23",
-  "last_seen": "2026-11-23"
- },
  "VocaHQ/vocamac": {
   "cats": [
    "audio"
@@ -6509,13 +6475,6 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-23"
  },
- "alexeytarasov8/filmora-win": {
-  "cats": [
-   "video"
-  ],
-  "first_seen": "2026-11-23",
-  "last_seen": "2026-11-23"
- },
  "alexeyw/lot-map": {
   "first_seen": "2026-11-14",
   "last_seen": "2026-11-23"
@@ -7092,6 +7051,10 @@
   ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-09"
+ },
+ "apple-aiml-research/ml-depth-pro-2": {
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  "appsmithorg/appsmith": {
   "cats": [
@@ -7694,7 +7657,7 @@
  },
  "blader/humanizer": {
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-19"
+  "last_seen": "2026-11-23"
  },
  "blakeandersonw/ai-app-playbook": {
   "first_seen": "2026-11-19",
@@ -7759,13 +7722,6 @@
   "first_seen": "2026-11-14",
   "last_seen": "2026-11-15"
  },
- "bo-design8152/filmora-win": {
-  "cats": [
-   "video"
-  ],
-  "first_seen": "2026-11-23",
-  "last_seen": "2026-11-23"
- },
  "bobeff/open-source-games": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-08"
@@ -7786,10 +7742,6 @@
    "seo"
   ],
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-23"
- },
- "bookwjitchieni1986/blender-ai-mcp-addon": {
-  "first_seen": "2026-11-20",
   "last_seen": "2026-11-23"
  },
  "bookwyrm-social/bookwyrm": {
@@ -8410,13 +8362,6 @@
   "first_seen": "2026-11-18",
   "last_seen": "2026-11-23"
  },
- "cold-willow-36/lossless-scaling-desktop": {
-  "cats": [
-   "image"
-  ],
-  "first_seen": "2026-11-23",
-  "last_seen": "2026-11-23"
- },
  "coleam00/Archon": {
   "cats": [
    "automation"
@@ -8677,6 +8622,10 @@
   "first_seen": "2026-10-24",
   "last_seen": "2026-10-25"
  },
+ "danielwh2/sprite-stacking": {
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
  "danukim/Miko": {
   "cats": [
    "embodied"
@@ -8851,13 +8800,6 @@
    "audio"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-23"
- },
- "debugdigital677/descript-pro-win": {
-  "cats": [
-   "video"
-  ],
-  "first_seen": "2026-11-23",
   "last_seen": "2026-11-23"
  },
  "declarative-dragging/dragology": {
@@ -10170,6 +10112,10 @@
   "first_seen": "2026-11-03",
   "last_seen": "2026-11-05"
  },
+ "gelenmedya/rustyfiles": {
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
  "generative-design/Code-Package-p5.js": {
   "cats": [
    "art"
@@ -10658,6 +10604,10 @@
  "guillaumemeyer/watermarks-remover": {
   "first_seen": "2026-11-01",
   "last_seen": "2026-11-12"
+ },
+ "gulucaptain/Best-Paper-Writing-Skill": {
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  "gunthercox/ChatterBot": {
   "cats": [
@@ -11618,6 +11568,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-23"
  },
+ "ivall/xcl": {
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
  "ivankovic/omnidiff": {
   "first_seen": "2026-11-03",
   "last_seen": "2026-11-04"
@@ -12516,6 +12470,10 @@
  "krahets/hello-algo": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-12"
+ },
+ "krezio/roomy": {
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  "krillinai/OpenCreator": {
   "cats": [
@@ -13599,7 +13557,7 @@
    "office"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-22"
+  "last_seen": "2026-11-23"
  },
  "mherrmann/helium": {
   "cats": [
@@ -13799,6 +13757,10 @@
  "mirkobrombin/raven": {
   "first_seen": "2026-11-01",
   "last_seen": "2026-11-22"
+ },
+ "misakano7545/workbuddy2api-panel": {
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  "miso-belica/sumy": {
   "cats": [
@@ -16615,6 +16577,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-23"
  },
+ "samuelgursky/davinci-resolve-mcp": {
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
  "samwhosung/benilla": {
   "first_seen": "2026-10-26",
   "last_seen": "2026-11-04"
@@ -17607,13 +17573,6 @@
  "sundowndev/phoneinfoga": {
   "first_seen": "2026-11-02",
   "last_seen": "2026-11-16"
- },
- "sunilgroup/nvidia-broadcast-win": {
-  "cats": [
-   "image"
-  ],
-  "first_seen": "2026-11-22",
-  "last_seen": "2026-11-23"
  },
  "sunriseapps/imagesorcery-mcp": {
   "cats": [
@@ -19542,7 +19501,7 @@
  },
  "yetone/magpie": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-11-23"
  },
  "yeyupiaoling/Whisper-Finetune": {
   "cats": [
