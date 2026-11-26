@@ -1450,6 +1450,10 @@
   "first_seen": "2026-11-09",
   "last_seen": "2026-11-26"
  },
+ "DoubleGhosty/cool_fox": {
+  "first_seen": "2026-11-26",
+  "last_seen": "2026-11-26"
+ },
  "DozenTwelve/Papermorph": {
   "cats": [
    "video"
@@ -3435,6 +3439,10 @@
   "first_seen": "2026-10-25",
   "last_seen": "2026-10-26"
  },
+ "MorpheApp/morphe-patches": {
+  "first_seen": "2026-11-26",
+  "last_seen": "2026-11-26"
+ },
  "MostafaXS1/artcraft-android": {
   "first_seen": "2026-11-04",
   "last_seen": "2026-11-13"
@@ -4472,6 +4480,10 @@
  },
  "Renly1994/xiaotang-daozai": {
   "first_seen": "2026-11-13",
+  "last_seen": "2026-11-26"
+ },
+ "Reukix/Reloc": {
+  "first_seen": "2026-11-26",
   "last_seen": "2026-11-26"
  },
  "Revivedx/SavageWindRecomp": {
@@ -9449,7 +9461,7 @@
  },
  "egoist/mygo": {
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-11-26"
  },
  "egoist/mygo-cloudmusic": {
   "first_seen": "2026-11-04",
@@ -11624,6 +11636,10 @@
    "audio"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-26"
+ },
+ "inotbarnacle/iDriveDeck": {
+  "first_seen": "2026-11-26",
   "last_seen": "2026-11-26"
  },
  "instruktlabs/kiln": {
@@ -14696,6 +14712,10 @@
   "first_seen": "2026-10-30",
   "last_seen": "2026-10-31"
  },
+ "nexu-io/opengame": {
+  "first_seen": "2026-11-26",
+  "last_seen": "2026-11-26"
+ },
  "nexu-io/openmotion": {
   "cats": [
    "social",
@@ -14807,6 +14827,10 @@
  "noahdunnagan/fsearch": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-06"
+ },
+ "noctalia-dev/luciole": {
+  "first_seen": "2026-11-26",
+  "last_seen": "2026-11-26"
  },
  "noctalia-dev/umbriel": {
   "first_seen": "2026-11-01",
@@ -15005,6 +15029,10 @@
  },
  "obra/superpowers": {
   "first_seen": "2026-10-27",
+  "last_seen": "2026-11-26"
+ },
+ "obsidianmd/obsidian-skills": {
+  "first_seen": "2026-11-26",
   "last_seen": "2026-11-26"
  },
  "obsidianmd/pele": {
@@ -16240,7 +16268,7 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-26"
  },
- "qianyiai/kurocat": {
+ "qianyiai/KuroCat": {
   "first_seen": "2026-11-24",
   "last_seen": "2026-11-26"
  },
@@ -19769,6 +19797,10 @@
   "first_seen": "2026-11-07",
   "last_seen": "2026-11-18"
  },
+ "xyc999-ai/go-bot": {
+  "first_seen": "2026-11-26",
+  "last_seen": "2026-11-26"
+ },
  "yalongwastaken/git-koi": {
   "cats": [
    "art"
@@ -20152,6 +20184,10 @@
   ],
   "first_seen": "2026-11-07",
   "last_seen": "2026-11-19"
+ },
+ "zenvyzenshiro/zenlink": {
+  "first_seen": "2026-11-26",
+  "last_seen": "2026-11-26"
  },
  "zephyr4123/snug": {
   "first_seen": "2026-11-18",
