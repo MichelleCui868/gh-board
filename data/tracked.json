@@ -15,6 +15,10 @@
   "first_seen": "2026-10-31",
   "last_seen": "2026-11-15"
  },
+ "0x1A6C1A9Y/focus-clock": {
+  "first_seen": "2026-11-27",
+  "last_seen": "2026-11-27"
+ },
  "0x23/MicroManipulatorStepper": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-21"
@@ -821,10 +825,6 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-27"
  },
- "Belobug/VIctory-Belobug-AMD": {
-  "first_seen": "2026-11-25",
-  "last_seen": "2026-11-27"
- },
  "BenGJ10/Placement-Preparation": {
   "cats": [
    "job"
@@ -1326,6 +1326,10 @@
   ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-13"
+ },
+ "DeadInternetStudios/100x-engineer-skill": {
+  "first_seen": "2026-11-27",
+  "last_seen": "2026-11-27"
  },
  "DeanChensj/jiangshan-map": {
   "first_seen": "2026-10-23",
@@ -2372,6 +2376,10 @@
    "knowledge"
   ],
   "first_seen": "2026-10-20",
+  "last_seen": "2026-11-27"
+ },
+ "ItzMeShadow999/BadgeMaxxer": {
+  "first_seen": "2026-11-27",
   "last_seen": "2026-11-27"
  },
  "JCodesMore/ai-website-cloner-template": {
@@ -4292,6 +4300,10 @@
   ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-02"
+ },
+ "ProjectLeonida/mandy": {
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-27"
  },
  "PrzemekSkw/imagemagick-webui": {
   "cats": [
@@ -7471,10 +7483,6 @@
   "first_seen": "2026-10-22",
   "last_seen": "2026-11-27"
  },
- "avatarmanz/VIctory-7900XTX": {
-  "first_seen": "2026-11-26",
-  "last_seen": "2026-11-27"
- },
  "avelino/awesome-go": {
   "first_seen": "2026-11-03",
   "last_seen": "2026-11-04"
@@ -10354,6 +10362,10 @@
  "garrytan/gstack": {
   "first_seen": "2026-10-25",
   "last_seen": "2026-11-13"
+ },
+ "gary23w/f-ck_data_brokers": {
+  "first_seen": "2026-11-27",
+  "last_seen": "2026-11-27"
  },
  "gastongouron/ironpress": {
   "cats": [
@@ -15799,6 +15811,10 @@
   "first_seen": "2026-11-24",
   "last_seen": "2026-11-27"
  },
+ "peak85-sketch/stardew-valley-mod-manager": {
+  "first_seen": "2026-11-27",
+  "last_seen": "2026-11-27"
+ },
  "pearl-research-labs/pearl": {
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-29"
@@ -15839,6 +15855,10 @@
   ],
   "first_seen": "2026-10-31",
   "last_seen": "2026-11-05"
+ },
+ "petergyang/video-explainer": {
+  "first_seen": "2026-11-27",
+  "last_seen": "2026-11-27"
  },
  "pgjdbc/pgjdbc": {
   "first_seen": "2026-11-06",
@@ -18610,6 +18630,10 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-19"
  },
+ "trustno1-coder/VIctory-NVIDIA": {
+  "first_seen": "2026-11-27",
+  "last_seen": "2026-11-27"
+ },
  "trustwallet/assets": {
   "first_seen": "2026-11-15",
   "last_seen": "2026-11-16"
@@ -18667,6 +18691,10 @@
   "first_seen": "2026-11-13",
   "last_seen": "2026-11-14"
  },
+ "tweak-for-me/impulse": {
+  "first_seen": "2026-11-27",
+  "last_seen": "2026-11-27"
+ },
  "twehrbein/ExMR": {
   "cats": [
    "embodied"
@@ -18710,10 +18738,6 @@
   "first_seen": "2026-10-20",
   "last_seen": "2026-11-27"
  },
- "ubiquitarianism/leonida": {
-  "first_seen": "2026-11-24",
-  "last_seen": "2026-11-27"
- },
  "ucla-mobility/AutoVLA": {
   "cats": [
    "embodied"
@@ -18746,7 +18770,7 @@
  },
  "umbradev315/ffmpeg-video-audio-converter": {
   "first_seen": "2026-11-25",
-  "last_seen": "2026-11-25"
+  "last_seen": "2026-11-27"
  },
  "umlx5h/LLPlayer": {
   "cats": [
@@ -20279,10 +20303,6 @@
  },
  "zephyr4123/snug": {
   "first_seen": "2026-11-18",
-  "last_seen": "2026-11-27"
- },
- "zero5122/offline-file-converter-windows": {
-  "first_seen": "2026-11-25",
   "last_seen": "2026-11-27"
  },
  "zeroclaw-labs/zeroclaw": {
